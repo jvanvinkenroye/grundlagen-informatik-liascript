@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="760" height="440" viewBox="0 0 760 440">
+<defs>
+</defs>
+<rect x="0" y="0" width="760" height="440" fill="#FFFFFF" />
+<text x="266.0" y="66.0" font-size="15" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#1A1A1A">Eigener Betrieb</text>
+<text x="398.0" y="66.0" font-size="15" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#1A1A1A">IaaS</text>
+<text x="530.0" y="66.0" font-size="15" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#1A1A1A">PaaS</text>
+<text x="662.0" y="66.0" font-size="15" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#1A1A1A">SaaS</text>
+<text x="188" y="105.0" font-size="13" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="normal" fill="#1A1A1A">Daten</text>
+<rect x="203" y="83" width="126" height="34" rx="4" fill="#147375" stroke="#264653" />
+<text x="266.0" y="105.0" font-size="12" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="normal" fill="#FFFFFF">Einrichtung</text>
+<rect x="335" y="83" width="126" height="34" rx="4" fill="#147375" stroke="#264653" />
+<text x="398.0" y="105.0" font-size="12" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="normal" fill="#FFFFFF">Einrichtung</text>
+<rect x="467" y="83" width="126" height="34" rx="4" fill="#147375" stroke="#264653" />
+<text x="530.0" y="105.0" font-size="12" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="normal" fill="#FFFFFF">Einrichtung</text>
+<rect x="599" y="83" width="126" height="34" rx="4" fill="#147375" stroke="#264653" />
+<text x="662.0" y="105.0" font-size="12" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="normal" fill="#FFFFFF">Einrichtung</text>
+<text x="188" y="145.0" font-size="13" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="normal" fill="#1A1A1A">Anwendungen</text>
+<rect x="203" y="123" width="126" height="34" rx="4" fill="#147375" stroke="#264653" />
+<text x="266.0" y="145.0" font-size="12" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="normal" fill="#FFFFFF">Einrichtung</text>
+<rect x="335" y="123" width="126" height="34" rx="4" fill="#147375" stroke="#264653" />
+<text x="398.0" y="145.0" font-size="12" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="normal" fill="#FFFFFF">Einrichtung</text>
+<rect x="467" y="123" width="126" height="34" rx="4" fill="#147375" stroke="#264653" />
+<text x="530.0" y="145.0" font-size="12" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="normal" fill="#FFFFFF">Einrichtung</text>
+<rect x="599" y="123" width="126" height="34" rx="4" fill="#F0F0F0" stroke="#B3B3B3" />
+<text x="662.0" y="145.0" font-size="12" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="normal" fill="#555555">Anbieter</text>
+<text x="188" y="185.0" font-size="13" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="normal" fill="#1A1A1A">Datenbank, Laufzeit</text>
+<rect x="203" y="163" width="126" height="34" rx="4" fill="#147375" stroke="#264653" />
+<text x="266.0" y="185.0" font-size="12" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="normal" fill="#FFFFFF">Einrichtung</text>
+<rect x="335" y="163" width="126" height="34" rx="4" fill="#147375" stroke="#264653" />
+<text x="398.0" y="185.0" font-size="12" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="normal" fill="#FFFFFF">Einrichtung</text>
+<rect x="467" y="163" width="126" height="34" rx="4" fill="#F0F0F0" stroke="#B3B3B3" />
+<text x="530.0" y="185.0" font-size="12" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="normal" fill="#555555">Anbieter</text>
+<rect x="599" y="163" width="126" height="34" rx="4" fill="#F0F0F0" stroke="#B3B3B3" />
+<text x="662.0" y="185.0" font-size="12" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="normal" fill="#555555">Anbieter</text>
+<text x="188" y="225.0" font-size="13" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="normal" fill="#1A1A1A">Betriebssystem</text>
+<rect x="203" y="203" width="126" height="34" rx="4" fill="#147375" stroke="#264653" />
+<text x="266.0" y="225.0" font-size="12" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="normal" fill="#FFFFFF">Einrichtung</text>
+<rect x="335" y="203" width="126" height="34" rx="4" fill="#F0F0F0" stroke="#B3B3B3" />
+<text x="398.0" y="225.0" font-size="12" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="normal" fill="#555555">Anbieter</text>
+<rect x="467" y="203" width="126" height="34" rx="4" fill="#F0F0F0" stroke="#B3B3B3" />
+<text x="530.0" y="225.0" font-size="12" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="normal" fill="#555555">Anbieter</text>
+<rect x="599" y="203" width="126" height="34" rx="4" fill="#F0F0F0" stroke="#B3B3B3" />
+<text x="662.0" y="225.0" font-size="12" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="normal" fill="#555555">Anbieter</text>
+<text x="188" y="265.0" font-size="13" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="normal" fill="#1A1A1A">Server (virtuell)</text>
+<rect x="203" y="243" width="126" height="34" rx="4" fill="#147375" stroke="#264653" />
+<text x="266.0" y="265.0" font-size="12" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="normal" fill="#FFFFFF">Einrichtung</text>
+<rect x="335" y="243" width="126" height="34" rx="4" fill="#F0F0F0" stroke="#B3B3B3" />
+<text x="398.0" y="265.0" font-size="12" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="normal" fill="#555555">Anbieter</text>
+<rect x="467" y="243" width="126" height="34" rx="4" fill="#F0F0F0" stroke="#B3B3B3" />
+<text x="530.0" y="265.0" font-size="12" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="normal" fill="#555555">Anbieter</text>
+<rect x="599" y="243" width="126" height="34" rx="4" fill="#F0F0F0" stroke="#B3B3B3" />
+<text x="662.0" y="265.0" font-size="12" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="normal" fill="#555555">Anbieter</text>
+<text x="188" y="305.0" font-size="13" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="normal" fill="#1A1A1A">Speicher und Netz</text>
+<rect x="203" y="283" width="126" height="34" rx="4" fill="#147375" stroke="#264653" />
+<text x="266.0" y="305.0" font-size="12" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="normal" fill="#FFFFFF">Einrichtung</text>
+<rect x="335" y="283" width="126" height="34" rx="4" fill="#F0F0F0" stroke="#B3B3B3" />
+<text x="398.0" y="305.0" font-size="12" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="normal" fill="#555555">Anbieter</text>
+<rect x="467" y="283" width="126" height="34" rx="4" fill="#F0F0F0" stroke="#B3B3B3" />
+<text x="530.0" y="305.0" font-size="12" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="normal" fill="#555555">Anbieter</text>
+<rect x="599" y="283" width="126" height="34" rx="4" fill="#F0F0F0" stroke="#B3B3B3" />
+<text x="662.0" y="305.0" font-size="12" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="normal" fill="#555555">Anbieter</text>
+<text x="188" y="345.0" font-size="13" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="normal" fill="#1A1A1A">Rechenzentrum</text>
+<rect x="203" y="323" width="126" height="34" rx="4" fill="#147375" stroke="#264653" />
+<text x="266.0" y="345.0" font-size="12" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="normal" fill="#FFFFFF">Einrichtung</text>
+<rect x="335" y="323" width="126" height="34" rx="4" fill="#F0F0F0" stroke="#B3B3B3" />
+<text x="398.0" y="345.0" font-size="12" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="normal" fill="#555555">Anbieter</text>
+<rect x="467" y="323" width="126" height="34" rx="4" fill="#F0F0F0" stroke="#B3B3B3" />
+<text x="530.0" y="345.0" font-size="12" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="normal" fill="#555555">Anbieter</text>
+<rect x="599" y="323" width="126" height="34" rx="4" fill="#F0F0F0" stroke="#B3B3B3" />
+<text x="662.0" y="345.0" font-size="12" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="normal" fill="#555555">Anbieter</text>
+<rect x="200" y="376" width="16" height="16" rx="3" fill="#147375" />
+<text x="224" y="389.0" font-size="13" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-weight="normal" fill="#1A1A1A">verwaltet die Einrichtung selbst</text>
+<rect x="460" y="376" width="16" height="16" rx="3" fill="#F0F0F0" stroke="#B3B3B3" />
+<text x="484" y="389.0" font-size="13" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-weight="normal" fill="#1A1A1A">übernimmt der Cloud-Anbieter</text>
+<text x="380" y="34.0" font-size="18" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#1A1A1A">Wer verwaltet was?</text>
+</svg>

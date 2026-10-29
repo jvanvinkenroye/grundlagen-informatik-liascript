@@ -42,24 +42,44 @@ vom LiaScript-Exporter erzeugte Paket mit `tools/patch_scorm.py`:
 von 5 Tagen aus. Wer ein Modul schon geöffnet hat, sieht ausgetauschte
 Dateien unter Umständen erst nach Ablauf dieser Frist.
 
-## Grafiken neu erzeugen
+## Grafiken
 
-Drei Grafiken werden per Skript erzeugt:
+Alle Abbildungen sind eigene Gestaltungen. Es gibt zwei Arten:
+
+**Mermaid-Diagramme direkt im Kurstext** (Computer-Aufbau in 4.1, Netzwerke in
+4.2 und 4.3, Datenbankschema in 5.3). Sie stehen als Text in `README.md` und
+werden im Browser über das Template `LiaTemplates/mermaid_template` (0.1.4)
+gezeichnet. Zum Ändern einfach den Text im Codeblock ```` ```mermaid @mermaid ````
+bearbeiten. Farben kommen aus der `%%{init: ...}%%`-Zeile am Anfang jedes
+Diagramms.
+
+**SVG-Dateien in `img/`**, erzeugt mit Python. Die Python-Umgebung verwaltet
+[uv](https://docs.astral.sh/uv/):
 
 ```bash
-python3 tools/make_ki_svgs.py img   # Transformer und Diffusion (3.4)
-python3 tools/make_web_svg.py img   # Aufruf einer Webseite (4.5)
+uv sync                                       # einmalig: drawsvg installieren
+uv run python tools/make_abbildungen.py img   # Digitalisierung, neuronales Netz,
+                                              # Cloud, Datenbanktabellen
+uv run python tools/make_ki_svgs.py img       # Transformer und Diffusion (3.4)
+uv run python tools/make_web_svg.py img       # Aufruf einer Webseite (4.5)
 ```
 
-Die übrigen SVGs sind von Hand gezeichnete Nachbauten der Abbildungen aus
-der Vorlage.
+`tools/zeichnen.py` ist ein kleines Zeichen-Framework auf Basis von
+[drawsvg](https://github.com/cduck/drawsvg): Farbpalette, Kästen, Pfeile,
+mehrzeilige Texte und Gerätesymbole (PC, Notebook, Smartphone, Tablet, Server,
+Router, Wolke). Neue Abbildungen sollten es verwenden, damit alles einheitlich
+aussieht.
+
+Zwei Grafiken sind statische SVG-Dateien ohne Generator:
+`kap1-zeitleiste.svg` und `anleitung-codeblock.svg`.
 
 ## Externe Abhängigkeiten zur Laufzeit
 
 - Python in den Code-Beispielen: [Pyodide](https://pyodide.org) über das
   LiaScript-Template `LiaTemplates/Pyodide` (Version 0.3.5) und
   `cdn.jsdelivr.net`
+- Mermaid-Diagramme: `cdn.jsdelivr.net` (Mermaid 10.5)
 - Live-DNS-Abfrage in 4.5: `dns.google`
 
-Ohne Internetzugang funktionieren die Code-Beispiele nicht, der restliche
-Kurs schon.
+Ohne Internetzugang funktionieren die Code-Beispiele und die
+Mermaid-Diagramme nicht, der restliche Kurs schon.

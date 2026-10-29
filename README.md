@@ -1,7 +1,7 @@
 <!--
 author:   Jan Vanvinkenroye
 email:    jan.vanvinkenroye@tik.uni-stuttgart.de
-version:  1.0.0
+version:  1.1.1
 language: de
 narrator: Deutsch Female
 
@@ -9,9 +9,10 @@ comment:  Web-Kurs zu den Grundlagen der Informatik für die Sozialinformatik:
           Daten und Codierung, Logik, Algorithmen, neuronale Netze,
           Computer- und Netzwerkarchitekturen, Cloud Computing und Datenbanken.
 
-logo:     img/abb15-computer-architektur.svg
+logo:     img/neuronales-netz.svg
 
 import:   https://raw.githubusercontent.com/LiaTemplates/Pyodide/0.3.5/README.md
+          https://raw.githubusercontent.com/LiaTemplates/mermaid_template/0.1.4/README.md
 
 -->
 
@@ -176,7 +177,7 @@ Welche Teilgebiete werden unter dem Begriff **Kerninformatik** zusammengefasst?
 
 ## 2 Grundlagen der Informationsverarbeitung
 
-![Ein Smiley wird digitalisiert: aus dem Bild wird ein Raster aus 0 und 1](img/abb09-digitalisierung-bild.svg)
+![Ein Herz wird digitalisiert: aus dem Bild wird ein Raster aus 0 und 1](img/digitalisierung.svg)
 
 **In diesem Kapitel**
 
@@ -353,7 +354,7 @@ Die Lösung der Informatik: Sie ersetzt die unendlich vielen Werte durch eine
 **endliche Zahl von Stufen**. Das nennt man **Rasterung** oder **Digitalisierung**
 (engl. _digit_ = Ziffer).
 
-![Abbildung 9: Digitalisierung eines einfachen Bildes. Schwarze und weiße Punkte werden direkt zu 0 und 1.](img/abb09-digitalisierung-bild.svg)
+![Digitalisierung eines Bildes: Aus der Form wird ein Raster, aus dem Raster werden Bits.](img/digitalisierung.svg)
 
 **Digitalisierung verfälscht.** Runde Linien werden zu Treppenstufen, ein
 anschwellender Ton zu einer Abfolge einzelner Pegelstufen. Je feiner das Raster,
@@ -458,17 +459,17 @@ Werte: **WAHR** und **FALSCH**. Deshalb passen beide so gut zusammen:
 | 0     | FALSCH |
 
 **Aussagen** sind Sätze, die entweder wahr oder falsch sind. Nehmen wir zwei
-Aussagen über die Klientin Frau Braun:
+Aussagen über die Klientin Frau Becker:
 
-- **A:** „Frau Braun ist arbeitslos.“ – das ist **WAHR**
-- **B:** „Frau Braun ist in Ausbildung.“ – das ist **FALSCH**
+- **A:** „Frau Becker ist arbeitslos.“ – das ist **WAHR**
+- **B:** „Frau Becker ist in Ausbildung.“ – das ist **FALSCH**
 
 Mit drei **logischen Verknüpfungen** lassen sich daraus neue Aussagen bilden:
 
 <!-- data-type="none" -->
 | Verknüpfung | Regel                                                  | Beispiel                                          | Ergebnis |
 | ----------- | ------------------------------------------------------ | ------------------------------------------------- | -------- |
-| **NICHT A** | dreht den Wert um                                      | „Frau Braun ist **nicht** arbeitslos.“            | FALSCH   |
+| **NICHT A** | dreht den Wert um                                      | „Frau Becker ist **nicht** arbeitslos.“            | FALSCH   |
 | **A UND B** | nur WAHR, wenn **beide** Aussagen wahr sind            | „Sie ist arbeitslos **und** in Ausbildung.“       | FALSCH   |
 | **A ODER B** | WAHR, wenn **mindestens eine** Aussage wahr ist        | „Sie ist arbeitslos **oder** in Ausbildung.“      | WAHR     |
 
@@ -492,7 +493,7 @@ Mit drei **logischen Verknüpfungen** lassen sich daraus neue Aussagen bilden:
 Code aus.
 
 ```python
-# Zwei Aussagen über Frau Braun: True heißt wahr, False heißt falsch.
+# Zwei Aussagen über Frau Becker: True heißt wahr, False heißt falsch.
 # Probieren Sie alle vier Kombinationen aus der Wahrheitstabelle aus:
 # False/False, False/True, True/False und True/True.
 arbeitslos = True
@@ -526,11 +527,11 @@ Fachsoftware.
 # mit Feldern wie "name" oder "arbeitslos". True heißt wahr, False heißt falsch.
 # Sie können Werte ändern oder eine weitere Zeile im gleichen Muster ergänzen.
 adressaten = [
-    {"name": "Amann",  "geschlecht": "m", "arbeitslos": True,  "status": "Ausbildung"},
-    {"name": "Braun",  "geschlecht": "w", "arbeitslos": True,  "status": "keiner"},
-    {"name": "Christ", "geschlecht": "m", "arbeitslos": False, "status": "Praktikum"},
-    {"name": "Diemer", "geschlecht": "m", "arbeitslos": True,  "status": "keiner"},
-    {"name": "Erhard", "geschlecht": "w", "arbeitslos": False, "status": "Ausbildung"},
+    {"name": "Arslan",    "geschlecht": "m", "arbeitslos": True,  "status": "Ausbildung"},
+    {"name": "Becker",    "geschlecht": "w", "arbeitslos": True,  "status": "keiner"},
+    {"name": "Costa",     "geschlecht": "m", "arbeitslos": False, "status": "Praktikum"},
+    {"name": "Dietrich",  "geschlecht": "m", "arbeitslos": True,  "status": "keiner"},
+    {"name": "Engel",     "geschlecht": "w", "arbeitslos": False, "status": "Ausbildung"},
 ]
 
 # Abfrage 1 mit UND (and): Beide Bedingungen müssen gleichzeitig zutreffen.
@@ -562,11 +563,11 @@ A **ODER** B ist [[ (WAHR) | FALSCH ]].
 
 **NICHT** B ist [[ (WAHR) | FALSCH ]].
 
-Eine Abfrage lautet „wohnt in Lindlen **UND** ist älter als 80“. Welche Aussage
+Eine Abfrage lautet „wohnt in der Südstadt **UND** ist älter als 80“. Welche Aussage
 stimmt?
 
-- [( )] Es werden alle Personen aus Lindlen und zusätzlich alle über 80 ausgegeben.
-- [(X)] Es werden nur Personen ausgegeben, die in Lindlen wohnen und älter als 80 sind.
+- [( )] Es werden alle Personen aus der Südstadt und zusätzlich alle über 80 ausgegeben.
+- [(X)] Es werden nur Personen ausgegeben, die in der Südstadt wohnen und älter als 80 sind.
 - [( )] Es werden alle Personen ausgegeben, auf die mindestens ein Kriterium zutrifft.
 
 
@@ -596,7 +597,7 @@ oder Big Data.
 
 ## 3 Algorithmen
 
-![Ein neuronales Netz erkennt Schicht für Schicht ein Gesicht](img/abb14-neuronales-netz.svg)
+![Ein neuronales Netz erkennt Schicht für Schicht, ob auf einem Foto eine Katze ist](img/neuronales-netz.svg)
 
 **In diesem Kapitel**
 
@@ -725,11 +726,11 @@ Die **Künstliche Intelligenz (KI)** setzt deshalb **lernfähige Algorithmen** e
 3. **Lernen** heißt: Die Gewichte werden verändert.
 4. Mehrere hintereinander geschaltete Schichten nennt man **Deep Learning**.
 
-![Abbildung 14: Funktionsweise eines künstlichen neuronalen Netzes am Beispiel der Gesichtserkennung (nach Süddeutsche Zeitung, 9./10.2.2019, S. 35)](img/abb14-neuronales-netz.svg)
+![Ein neuronales Netz beantwortet die Frage „Ist auf dem Foto eine Katze?“](img/neuronales-netz.svg)
 
 Jede Schicht erkennt komplexere Merkmale: erst helle und dunkle Pixel, dann
-Kanten, dann wiederkehrende Formen, schließlich Augen, Nase und Mund. Am Ende
-steht eine **Wahrscheinlichkeit**, z. B. „zu 98,3 % ein Gesicht“.
+Kanten und Formen, schließlich Ohren, Augen und Schnurrhaare. Am Ende
+steht eine **Wahrscheinlichkeit**, z. B. „zu 91 % eine Katze“.
 
 Zwei besondere Bauarten neuronaler Netze stecken hinter den bekanntesten
 KI-Anwendungen von heute: **Transformer** schreiben Texte, **Diffusionsmodelle**
@@ -762,7 +763,7 @@ nächste Wort voraus.**
    Transformers.
 4. **Viele Schichten:** Dieser Schritt wird in Dutzenden Schichten hintereinander
    wiederholt. Jede Schicht erfasst komplexere Zusammenhänge – ähnlich wie beim
-   Gesichtserkennungs-Netz auf der vorigen Seite.
+   Bilderkennungs-Netz auf der vorigen Seite.
 5. **Nächstes Wort wählen:** Am Ende steht für jedes mögliche nächste Wort eine
    **Wahrscheinlichkeit**. Ein Wort wird ausgewählt, an den Text angehängt – und
    alles beginnt von vorn. So entsteht eine Antwort Wort für Wort.
@@ -975,7 +976,7 @@ Welche Aussagen sind richtig?
 
 ## 4 Systemarchitekturen
 
-![Ebenen und Anwendungsformen des Cloud Computings](img/abb18-cloud-ebenen.svg)
+![Die drei Ebenen des Cloud Computings](img/cloud-ebenen.svg)
 
 **In diesem Kapitel**
 
@@ -990,7 +991,41 @@ Welche Aussagen sind richtig?
 Der Grundaufbau aller Computer ist seit über 50 Jahren gleich geblieben – vom
 Großrechner bis zum Smartphone:
 
-![Abbildung 15: Grundelemente gängiger Computersysteme](img/abb15-computer-architektur.svg)
+```mermaid @mermaid
+%%{init: {"theme": "base", "themeVariables": {"primaryColor": "#E3F1F0", "primaryBorderColor": "#147375", "primaryTextColor": "#1A1A1A", "lineColor": "#264653", "clusterBkg": "#F7FBFB", "clusterBorder": "#2A9D8F", "fontFamily": "Arial, Helvetica, sans-serif"}}}%%
+flowchart TB
+  subgraph EIN["Eingabe"]
+    direction LR
+    T["Tastatur und Maus"]
+    K["Kamera und Mikrofon"]
+  end
+  subgraph PC["Computer"]
+    direction TB
+    CPU["Prozessor (CPU)<br/>Steuerwerk und Rechenwerk"]
+    RAM["Arbeitsspeicher (RAM)<br/>schnell, flüchtig"]
+    BIOS["BIOS<br/>Startprogramm"]
+    BUS(["Datenbus"])
+    SSD["Massenspeicher<br/>SSD oder Festplatte, dauerhaft"]
+    NET["Netzwerkanschluss<br/>LAN oder WLAN"]
+    CPU <--> BUS
+    RAM <--> BUS
+    BIOS --> BUS
+    BUS <--> SSD
+    BUS <--> NET
+  end
+  subgraph AUS["Ausgabe"]
+    direction LR
+    B["Bildschirm"]
+    D["Drucker"]
+    L["Lautsprecher"]
+  end
+  TS["Touchscreen<br/>Ein- und Ausgabe"]
+  EIN --> PC
+  PC --> AUS
+  TS <--> PC
+  classDef bus fill:#147375,color:#FFFFFF,stroke:#264653
+  class BUS bus
+```
 
 <!-- data-type="none" -->
 | Baustein                   | Aufgabe                                                                                      |
@@ -1038,7 +1073,29 @@ entfernten Rechnern zu nutzen. Nach ihrer Ausdehnung unterscheidet man:
 - **Router:** verbindet das Netz mit dem Internet.
 - **Accesspoint:** sendet und empfängt Funksignale für Mobilgeräte.
 
-![Abbildung 16: Beispielkonfiguration eines kleinen lokalen Netzwerks, etwa für eine Beratungsstelle](img/abb16-kleines-lan.svg)
+```mermaid @mermaid
+%%{init: {"theme": "base", "themeVariables": {"primaryColor": "#E3F1F0", "primaryBorderColor": "#147375", "primaryTextColor": "#1A1A1A", "lineColor": "#264653", "clusterBkg": "#F7FBFB", "clusterBorder": "#2A9D8F", "fontFamily": "Arial, Helvetica, sans-serif"}}}%%
+flowchart TB
+  I(("Internet"))
+  R["Router mit Switch"]
+  S["Server<br/>Daten, Programme, Zugriffsrechte"]
+  AP["WLAN-Accesspoint"]
+  P1["PC Beratung 1"]
+  P2["PC Beratung 2"]
+  P3["PC Verwaltung"]
+  DR["Netzwerkdrucker"]
+  NB["Notebook"]
+  SP["Smartphone"]
+  TA["Tablet"]
+  I --- R
+  R --- S
+  R --- P1 & P2 & P3 & DR
+  R --- AP
+  AP -.- NB & SP & TA
+```
+
+Kleines Netzwerk einer Beratungsstelle: durchgezogene Linien sind Kabel (LAN),
+gepunktete Linien Funkverbindungen (WLAN).
 
 Eine Sonderform ist das **Peer-to-Peer-Netz** ohne eigenen Server: Jeder Rechner
 ist Client und Server zugleich. Es eignet sich nur für einfachen Datenaustausch
@@ -1056,7 +1113,36 @@ Gesamtkosten über den Lebenszyklus heißen **Total Cost of Ownership (TCO)**.
 Statt PCs stehen an den Arbeitsplätzen **Thin Clients**, die nur Ein- und Ausgabe
 übernehmen. Die gesamte Verarbeitung läuft auf leistungsstarken Servern.
 
-![Abbildung 17: Größeres lokales Netz mit Terminal-Server-Architektur, z. B. für eine größere Einrichtung der Jugend- oder Behindertenhilfe](img/abb17-terminal-server-lan.svg)
+```mermaid @mermaid
+%%{init: {"theme": "base", "themeVariables": {"primaryColor": "#E3F1F0", "primaryBorderColor": "#147375", "primaryTextColor": "#1A1A1A", "lineColor": "#264653", "clusterBkg": "#F7FBFB", "clusterBorder": "#2A9D8F", "fontFamily": "Arial, Helvetica, sans-serif"}}}%%
+flowchart TB
+  I(("Internet"))
+  FW["Router mit Firewall"]
+  SW["Switch"]
+  subgraph SR["Serverraum: Hier laufen alle Programme"]
+    direction LR
+    TSV["Terminal-Server"]
+    FS["Datei-Server"]
+    DB["Datenbank-Server"]
+  end
+  subgraph AP["Arbeitsplätze: nur Bildschirm, Tastatur und Maus"]
+    direction LR
+    TC1["Thin Client"]
+    TC2["Thin Client"]
+    TC3["Thin Client"]
+    PC["PC"]
+  end
+  WL["WLAN-Accesspoint"]
+  M["Notebooks und Tablets"]
+  I --- FW --- SW
+  SW --- SR
+  SW --- AP
+  SW --- WL
+  WL -.- M
+```
+
+Größeres Netz mit Terminal-Server: Die Programme laufen im Serverraum, an den
+Arbeitsplätzen kommen nur Bild und Eingaben an.
 
 <section class="flex-container">
 
@@ -1329,7 +1415,7 @@ man von Rechenzentrumsdienstleistungen, ASP oder IT-Outsourcing.
 | **Private Cloud** | selbst betrieben oder physisch getrennt im Rechenzentrum; orts- und geräteunabhängiger Zugriff | eigene Cloud eines Trägers |
 | **Hybrid Cloud**  | Mischform: unkritische Dienste öffentlich, datenschutzkritische intern; setzt Datenklassifizierung voraus | Office online, Klientendaten intern |
 
-![Abbildung 18: Ebenen und Anwendungsformen des Cloud Computings (nach wikipedia.org/wiki/Cloud_Computing)](img/abb18-cloud-ebenen.svg)
+![Die drei Ebenen des Cloud Computings und der Zugriff über das Internet](img/cloud-ebenen.svg)
 
 
 ### 4.7 Servicemodelle der Cloud
@@ -1341,7 +1427,7 @@ man von Rechenzentrumsdienstleistungen, ASP oder IT-Outsourcing.
 | **PaaS** – Platform as a Service       | zusätzlich Betriebs- oder Entwicklungsumgebung             | Programme und Daten                |
 | **SaaS** – Software as a Service       | fertige Anwendungen samt Infrastruktur                     | nur noch die Nutzung und die Daten |
 
-![Abbildung 19: Typische Cloud-Angebote am Beispiel Microsoft Azure (nach azure.microsoft.com)](img/abb19-cloud-angebote.svg)
+![Wer verwaltet was? Eigener Betrieb und die drei Servicemodelle im Vergleich](img/cloud-servicemodelle.svg)
 
 **Paradigmenwechsel:** Endgeräte werden zunehmend auf Ein- und Ausgabe reduziert,
 lokale Server werden überflüssig.
@@ -1365,7 +1451,7 @@ eigenen Haus: [[ Public Cloud | Private Cloud | (Hybrid Cloud) ]]
 
 ## 5 Datenbanken
 
-![Zwei verknüpfte Datenbank-Tabellen: Betreuer und Klienten](img/abb21-tabellen-verknuepfung.svg)
+![Zwei verknüpfte Datenbank-Tabellen: Betreuer und Klienten](img/db-verknuepfung.svg)
 
 **In diesem Kapitel**
 
@@ -1398,14 +1484,14 @@ Lizenzgebühren** an, Open-Source-Datenbanken sind lizenzkostenfrei.
 Heute wird fast ausschließlich die **relationale Datenbank** genutzt. Sie speichert
 Informationen in **Tabellen**.
 
-![Abbildung 20: Beispiel einer Datenbank-Tabelle mit Adressaten-Informationen](img/abb20-datenbank-tabelle.svg)
+![Aufbau einer Datenbanktabelle mit Spalten, Zeilen, Feldern und Schlüssel](img/db-tabelle.svg)
 
 <!-- data-type="none" -->
 | Begriff                     | Bedeutung                                                            |
 | --------------------------- | -------------------------------------------------------------------- |
 | **Spalte / Feldname / Attribut** | eine Informationskategorie, z. B. „Wohnort“                    |
 | **Zeile / Datensatz**       | alle Informationen zu einem Objekt, z. B. zu einer Person            |
-| **Feld**                    | genau eine Informationseinheit, z. B. „Lindlen“                      |
+| **Feld**                    | genau eine Informationseinheit, z. B. „Südstadt“                      |
 | **ID (Schlüssel)**          | eindeutige Nummer je Datensatz, meist automatisch vergeben           |
 
 Die ID ist nötig, weil zwei Datensätze in allen anderen Feldern identisch sein
@@ -1417,7 +1503,32 @@ könnten – etwa zwei Personen mit gleichem Namen und Geburtsdatum.
 Beziehungen zwischen Tabellen werden über die **ID** hergestellt. So lässt sich z. B.
 abbilden, welche Fachkraft welche Klienten betreut.
 
-![Abbildung 21: Verknüpfung zweier Datenbank-Tabellen (vereinfacht). Von einem Datensatz können mehrere Verknüpfungen ausgehen.](img/abb21-tabellen-verknuepfung.svg)
+![Zwei Tabellen, verknüpft über die Betreuer-ID](img/db-verknuepfung.svg)
+
+Ohne die Daten betrachtet, ergibt sich daraus das **Datenbankschema**: Es
+beschreibt, welche Tabellen es gibt, welche Spalten sie haben und wie sie
+zusammenhängen.
+
+```mermaid @mermaid
+%%{init: {"theme": "base", "themeVariables": {"primaryColor": "#E3F1F0", "primaryBorderColor": "#147375", "primaryTextColor": "#1A1A1A", "lineColor": "#264653", "clusterBkg": "#F7FBFB", "clusterBorder": "#2A9D8F", "fontFamily": "Arial, Helvetica, sans-serif"}}}%%
+erDiagram
+  BETREUER ||--o{ KLIENT : betreut
+  BETREUER {
+    int ID PK
+    string Name
+    string Team
+  }
+  KLIENT {
+    int ID PK
+    string Name
+    int Betreuer_ID FK
+  }
+```
+
+Gelesen: Ein Betreuer betreut keinen, einen oder mehrere Klienten; jeder Klient
+hat genau einen Betreuer. **PK** (_Primary Key_) markiert den Schlüssel einer
+Tabelle, **FK** (_Foreign Key_) einen Verweis auf den Schlüssel einer anderen
+Tabelle.
 
 Wechselt die Betreuung, muss nichts neu eingegeben werden – nur die Verknüpfung
 wird geändert.
@@ -1427,20 +1538,21 @@ wird geändert.
 ```python
 # Tabelle 1: Betreuer. Jeder Datensatz hat eine eindeutige ID.
 betreuer = [
-    {"id": 1, "name": "Salser", "abteilung": "3-2"},
-    {"id": 2, "name": "Hansen", "abteilung": "3-1"},
-    {"id": 3, "name": "Kluge",  "abteilung": "3-2"},
+    {"id": 1, "name": "Schulz",    "team": "Jugend"},
+    {"id": 2, "name": "Hoffmann",  "team": "Familie"},
+    {"id": 3, "name": "König",     "team": "Senioren"},
 ]
 
 # Tabelle 2: Klienten. Das Feld "betreuer_id" ist die Verknüpfung:
 # Es enthält die ID des zuständigen Betreuers aus Tabelle 1.
-# Ändern Sie z. B. bei Braun die 2 in eine 3 – das ist ein Betreuerwechsel.
+# Ändern Sie z. B. bei Becker die 2 in eine 3 – das ist ein Betreuerwechsel.
 klienten = [
-    {"id": 1, "name": "Amann",  "betreuer_id": 1},
-    {"id": 2, "name": "Braun",  "betreuer_id": 2},
-    {"id": 3, "name": "Christ", "betreuer_id": 2},
-    {"id": 4, "name": "Diemer", "betreuer_id": 3},
-    {"id": 6, "name": "Fligg",  "betreuer_id": 2},
+    {"id": 1, "name": "Arslan",    "betreuer_id": 1},
+    {"id": 2, "name": "Becker",    "betreuer_id": 2},
+    {"id": 3, "name": "Costa",     "betreuer_id": 2},
+    {"id": 4, "name": "Dietrich",  "betreuer_id": 3},
+    {"id": 5, "name": "Engel",     "betreuer_id": 3},
+    {"id": 6, "name": "Fischer",   "betreuer_id": 2},
 ]
 
 # Äußere Schleife: jeden Betreuer nacheinander durchgehen.
@@ -1497,11 +1609,11 @@ Warum braucht jeder Datensatz eine eindeutige ID?
 - [( )] Weil Datenbanken keine Namen speichern dürfen.
 - [( )] Damit die Datenbank weniger Speicher braucht.
 
-Klientin Braun wechselt von Betreuer Hansen zu Betreuerin Kluge. Was muss in der
+Klientin Becker wechselt von Betreuer Hoffmann zu Betreuerin König. Was muss in der
 Datenbank geändert werden?
 
-- [( )] Der Datensatz von Frau Braun muss gelöscht und neu angelegt werden.
-- [(X)] Nur die Verknüpfung (die Betreuer-ID bei Frau Braun).
+- [( )] Der Datensatz von Frau Becker muss gelöscht und neu angelegt werden.
+- [(X)] Nur die Verknüpfung (die Betreuer-ID bei Frau Becker).
 - [( )] Die Tabelle der Betreuer muss neu aufgebaut werden.
 
 
