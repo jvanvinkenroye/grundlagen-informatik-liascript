@@ -1,0 +1,203 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 672 630" width="672" height="630" font-family="Arial, Helvetica, sans-serif">
+<rect width="672" height="630" fill="#fff"/>
+<g transform="scale(0.5)">
+<rect x="3" y="3" width="1338" height="1254" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+<text text-anchor="middle" font-size="50" font-weight="bold" fill="#1a1a1a"><tspan x="668" y="115">Ebenen und Anwendungsformen</tspan><tspan x="668" y="182">des Cloud Computings</tspan></text>
+
+<!-- Wolke -->
+<path d="M250,640 C230,560 330,500 430,530 C450,450 560,430 640,435 C720,438 790,460 800,510 C880,460 990,470 1040,520 C1140,500 1200,600 1110,660 C1170,700 1190,800 1150,880 C1200,950 1160,1060 1060,1050 C1040,1150 900,1190 800,1150 C720,1220 560,1210 520,1160 C420,1180 300,1150 300,1080 C200,1060 180,960 230,900 C170,840 190,710 250,640 Z" fill="#fff" stroke="#999" stroke-width="2" stroke-dasharray="8,4"/>
+
+<!-- Endgeraete ausserhalb der Wolke -->
+<!-- Arbeitsplatz oben -->
+<g transform="translate(655,315)">
+<rect x="-55" y="-25" width="40" height="70" fill="#e6e6e6" stroke="#4d4d4d" stroke-width="2"/>
+<path d="M-50,-15 H-20 M-50,-5 H-20 M-50,5 H-20" stroke="#666" stroke-width="3"/>
+<path d="M-50,20 H-20 M-50,26 H-20 M-50,32 H-20 M-50,38 H-20" stroke="#999" stroke-width="2"/>
+<rect x="-2" y="-42" width="46" height="42" fill="#333" stroke="#1a1a1a" stroke-width="2"/>
+<rect x="3" y="-37" width="36" height="28" fill="#1a1a1a"/>
+<path d="M8,-30 H30 M8,-24 H22" stroke="#e6e6e6" stroke-width="2"/>
+<rect x="18" y="-14" width="48" height="40" fill="#cccccc" stroke="#1a1a1a" stroke-width="2"/>
+<rect x="23" y="-9" width="38" height="26" fill="#333"/>
+<path d="M28,-3 H52 M28,4 H44" stroke="#fff" stroke-width="2"/>
+<rect x="20" y="30" width="46" height="6" fill="#4d4d4d"/>
+<path d="M-15,38 H20" stroke="#333" stroke-width="3"/>
+</g>
+<!-- Laptop links -->
+<g transform="translate(162,475) rotate(-14)">
+<rect x="-50" y="-55" width="88" height="66" rx="4" fill="#4d4d4d" stroke="#1a1a1a" stroke-width="2"/>
+<rect x="-42" y="-47" width="72" height="50" fill="#1a1a1a"/>
+<path d="M-38,-40 L10,-40 L-38,-5 Z" fill="#666"/>
+<path d="M-50,11 H38 L62,48 H-40 Z" fill="#cccccc" stroke="#1a1a1a" stroke-width="2"/>
+<path d="M-40,18 H36 L48,36 H-32 Z" fill="#999"/>
+<rect x="0" y="38" width="20" height="6" fill="#999"/>
+</g>
+<!-- Monitor rechts -->
+<g transform="translate(1180,480)">
+<rect x="-40" y="-46" width="76" height="58" rx="3" fill="#4d4d4d" stroke="#1a1a1a" stroke-width="2"/>
+<rect x="-34" y="-40" width="64" height="46" fill="#1a1a1a"/>
+<path d="M30,-46 V12" stroke="#999" stroke-width="2"/>
+<rect x="-10" y="12" width="16" height="10" fill="#333"/>
+<rect x="-40" y="24" width="56" height="12" fill="#4d4d4d"/>
+<path d="M-36,28 H12 M-36,32 H12" stroke="#999" stroke-width="1.5"/>
+<path d="M22,26 C34,20 44,26 52,34" fill="none" stroke="#1a1a1a" stroke-width="5"/>
+</g>
+<!-- Smartphone links unten -->
+<g transform="translate(140,1072)">
+<rect x="-22" y="-45" width="44" height="90" rx="5" fill="#333" stroke="#1a1a1a" stroke-width="2"/>
+<rect x="-17" y="-34" width="34" height="62" fill="#1a1a1a"/>
+<path d="M-10,-40 H10" stroke="#999" stroke-width="3"/>
+<path d="M-12,36 H12" stroke="#666" stroke-width="3" stroke-dasharray="4,4"/>
+</g>
+<!-- Tablet rechts unten -->
+<g transform="translate(1198,1070)">
+<rect x="-33" y="-45" width="66" height="90" rx="4" fill="#f2f2f2" stroke="#4d4d4d" stroke-width="3"/>
+<rect x="-27" y="-38" width="54" height="72" fill="#1a1a1a"/>
+<path d="M-27,34 L27,-38 V34 Z" fill="#333"/>
+<circle cx="0" cy="40" r="2" fill="#666"/>
+</g>
+
+<!-- Ebenen-Ueberschriften -->
+<g font-size="44" fill="#1a1a1a" text-anchor="middle">
+<text x="680" y="552">Application</text>
+<text x="665" y="768">Platform</text>
+<text x="662" y="975">Infrastructure</text>
+</g>
+
+<!-- Application-Icons -->
+<!-- Monitoring: Tacho -->
+<g transform="translate(325,612)">
+<path d="M-62,30 V-8 C-62,-40 -30,-38 0,-38 C30,-38 62,-40 62,-8 V30 Z" fill="#1a1a1a"/>
+<path d="M-50,22 A50,50 0 0 1 50,22" fill="none" stroke="#666" stroke-width="2"/>
+<g stroke="#e6e6e6" stroke-width="2">
+<path d="M-38,10 l6,3 M-30,-6 l5,5 M-16,-16 l3,6 M0,-20 v7 M16,-16 l-3,6 M30,-6 l-5,5 M38,10 l-6,3"/>
+</g>
+<path d="M0,16 L20,-12" stroke="#fff" stroke-width="3"/>
+<circle cx="0" cy="16" r="6" fill="#999"/>
+<rect x="-12" y="22" width="24" height="7" fill="#e6e6e6"/>
+</g>
+<!-- Content: Zeitung -->
+<g transform="translate(492,655)">
+<path d="M-44,-28 H36 L46,28 H-38 Z" fill="#e6e6e6" stroke="#333" stroke-width="2"/>
+<text x="-34" y="-10" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-weight="bold" font-style="italic" fill="#1a1a1a">NEWS</text>
+<rect x="-36" y="-2" width="30" height="20" fill="#666"/>
+<path d="M0,0 H34 M0,6 H35 M0,12 H36 M0,18 H37 M-35,24 H38" stroke="#666" stroke-width="2"/>
+</g>
+<!-- Collaboration: Kalender -->
+<g transform="translate(667,612)">
+<rect x="-40" y="-40" width="74" height="72" rx="3" fill="#cccccc" stroke="#333" stroke-width="2"/>
+<rect x="-40" y="-40" width="74" height="16" fill="#4d4d4d"/>
+<path d="M-40,-28 H34" stroke="#999" stroke-width="2"/>
+<g fill="#666">
+<rect x="-34" y="-18" width="10" height="8"/><rect x="-20" y="-18" width="10" height="8"/><rect x="-6" y="-18" width="10" height="8"/><rect x="8" y="-18" width="10" height="8"/><rect x="22" y="-18" width="8" height="8"/>
+<rect x="-34" y="-6" width="10" height="8"/><rect x="-20" y="-6" width="10" height="8"/><rect x="-6" y="-6" width="10" height="8"/><rect x="8" y="-6" width="10" height="8"/><rect x="22" y="-6" width="8" height="8"/>
+<rect x="-34" y="6" width="10" height="8"/><rect x="-20" y="6" width="10" height="8"/><rect x="-6" y="6" width="10" height="8"/><rect x="8" y="6" width="10" height="8"/><rect x="22" y="6" width="8" height="8"/>
+</g>
+<path d="M-44,32 H40 L48,44 C30,38 -30,40 -44,40 Z" fill="#333"/>
+<path d="M34,32 L48,44 L46,30 Z" fill="#999"/>
+</g>
+<!-- Communication: Sprechblasen -->
+<g transform="translate(855,640)">
+<path d="M-18,-34 H40 V4 H30 L36,18 L18,4 H-18 Z" fill="#e6e6e6" stroke="#333" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M-42,-16 H16 V24 H-16 L-34,38 L-28,24 H-42 Z" fill="#f2f2f2" stroke="#333" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+<!-- Finance: Diagramm mit Geld -->
+<g transform="translate(1035,620)">
+<rect x="-38" y="-46" width="74" height="70" fill="#e6e6e6" stroke="#333" stroke-width="2"/>
+<path d="M-28,-46 V24 M-16,-46 V24 M-4,-46 V24 M8,-46 V24 M20,-46 V24 M-38,-32 H36 M-38,-18 H36 M-38,-4 H36 M-38,10 H36" stroke="#999" stroke-width="1"/>
+<path d="M-34,10 L-16,-6 L-4,6 L22,-34" fill="none" stroke="#1a1a1a" stroke-width="2.5"/>
+<rect x="-48" y="14" width="62" height="24" fill="#1a1a1a"/>
+<path d="M-48,22 H14 M-48,30 H14" stroke="#666" stroke-width="2"/>
+<g fill="#4d4d4d" stroke="#1a1a1a" stroke-width="1.5">
+<ellipse cx="30" cy="34" rx="16" ry="6"/><ellipse cx="30" cy="26" rx="16" ry="6"/><ellipse cx="30" cy="18" rx="16" ry="6"/><ellipse cx="30" cy="10" rx="16" ry="6"/><ellipse cx="30" cy="2" rx="16" ry="6"/>
+</g>
+</g>
+
+<!-- Platform-Icons -->
+<!-- Object Storage: Ordner -->
+<g transform="translate(365,850)">
+<path d="M-45,-48 H-22 L-16,-42 H26 V8 H-45 Z" fill="#4d4d4d"/>
+<rect x="-43" y="-36" width="66" height="10" fill="#f2f2f2"/>
+<path d="M-48,-30 H28 V14 H-48 Z" fill="#333"/>
+<path d="M-24,-6 H-2 L4,0 H46 V44 H-24 Z" fill="#4d4d4d"/>
+<rect x="-22" y="6" width="66" height="8" fill="#f2f2f2"/>
+<path d="M-26,12 H48 V46 H-26 Z" fill="#333"/>
+</g>
+<!-- Identity: Ausweis -->
+<g transform="translate(500,818)">
+<rect x="-52" y="-36" width="104" height="72" rx="6" fill="#f2f2f2" stroke="#999" stroke-width="2"/>
+<rect x="-44" y="-24" width="30" height="34" fill="#cccccc"/>
+<circle cx="-29" cy="-12" r="8" fill="#1a1a1a"/>
+<path d="M-42,10 C-42,-6 -16,-6 -16,10 Z" fill="#1a1a1a"/>
+<text x="-8" y="-14" font-size="11" font-weight="bold" fill="#333">John Doe</text>
+<path d="M-8,-4 H38 M-8,4 H30" stroke="#b3b3b3" stroke-width="4"/>
+<path d="M-44,18 v12 M-40,18 v12 M-37,18 v12 M-32,18 v12 M-28,18 v12 M-25,18 v12 M-20,18 v12 M-16,18 v12 M-12,18 v12 M-8,18 v12 M-3,18 v12 M0,18 v12 M5,18 v12 M9,18 v12 M12,18 v12 M17,18 v12 M21,18 v12 M25,18 v12 M30,18 v12 M34,18 v12 M38,18 v12 M42,18 v12" stroke="#1a1a1a" stroke-width="2"/>
+</g>
+<!-- Runtime: Box mit CD -->
+<g transform="translate(665,845)">
+<path d="M-46,-40 H30 L44,-30 V42 H-46 Z" fill="#4d4d4d" stroke="#1a1a1a" stroke-width="2"/>
+<rect x="-40" y="-34" width="62" height="70" fill="#333"/>
+<path d="M-28,-34 V36" stroke="#999" stroke-width="2" stroke-dasharray="3,3"/>
+<rect x="-24" y="-34" width="46" height="70" fill="#e6e6e6"/>
+<circle cx="18" cy="18" r="34" fill="#999" stroke="#1a1a1a" stroke-width="2"/>
+<circle cx="18" cy="18" r="22" fill="none" stroke="#cccccc" stroke-width="4"/>
+<circle cx="18" cy="18" r="9" fill="#f2f2f2" stroke="#1a1a1a" stroke-width="2"/>
+<circle cx="18" cy="18" r="3" fill="#333"/>
+</g>
+<!-- Queue: zwei Fenster -->
+<g transform="translate(845,830)">
+<rect x="-46" y="-46" width="64" height="58" fill="#e6e6e6" stroke="#333" stroke-width="2"/>
+<rect x="-46" y="-46" width="64" height="8" fill="#333"/>
+<rect x="-12" y="-12" width="64" height="58" fill="#f2f2f2" stroke="#333" stroke-width="2"/>
+<rect x="-12" y="-12" width="64" height="8" fill="#333"/>
+<rect x="-8" y="-2" width="56" height="44" fill="#e6e6e6"/>
+</g>
+<!-- Database: Zylinder -->
+<g transform="translate(1030,850)">
+<path d="M-46,-32 V36 A46,14 0 0 0 46,36 V-32" fill="#333" stroke="#1a1a1a" stroke-width="2"/>
+<path d="M-46,-8 A46,14 0 0 0 46,-8 M-46,14 A46,14 0 0 0 46,14" fill="none" stroke="#999" stroke-width="2.5"/>
+<ellipse cx="0" cy="-32" rx="46" ry="14" fill="#666" stroke="#1a1a1a" stroke-width="2"/>
+</g>
+
+<!-- Infrastructure-Icons -->
+<!-- Compute: Server -->
+<g transform="translate(402,1035)">
+<path d="M-48,0 H48" stroke="#666" stroke-width="6"/>
+<rect x="-24" y="-44" width="48" height="90" fill="#e6e6e6" stroke="#666" stroke-width="2"/>
+<rect x="-18" y="-34" width="36" height="10" fill="#cccccc" stroke="#666" stroke-width="1.5"/>
+<rect x="-18" y="-18" width="36" height="10" fill="#cccccc" stroke="#666" stroke-width="1.5"/>
+<path d="M-18,8 H18 M-18,14 H18 M-18,20 H18 M-18,26 H18 M-18,32 H18" stroke="#999" stroke-width="2"/>
+</g>
+<!-- Block Storage: Festplatte -->
+<g transform="translate(665,1065)">
+<path d="M-34,-28 H34 L46,10 H-46 Z" fill="#999" stroke="#333" stroke-width="2"/>
+<rect x="-46" y="10" width="92" height="26" rx="3" fill="#666" stroke="#333" stroke-width="2"/>
+<path d="M14,18 v10 M20,18 v10 M26,18 v10 M32,18 v10" stroke="#cccccc" stroke-width="2"/>
+<ellipse cx="0" cy="-8" rx="26" ry="8" fill="#b3b3b3"/>
+</g>
+<!-- Network: Netzwerkdose mit Stecker -->
+<g transform="translate(922,1032)">
+<rect x="-42" y="-40" width="84" height="80" rx="6" fill="#e6e6e6" stroke="#999" stroke-width="2"/>
+<rect x="-30" y="-28" width="60" height="56" rx="4" fill="#f2f2f2" stroke="#cccccc" stroke-width="2"/>
+<path d="M-10,-14 H10 V10 H-10 Z M-6,-14 V-20 H6 V-14" fill="#1a1a1a"/>
+<path d="M0,22 L14,10 L52,38 L40,52 Z" fill="#4d4d4d" stroke="#1a1a1a" stroke-width="2"/>
+<rect x="38" y="36" width="14" height="14" transform="rotate(38 45 43)" fill="#999" stroke="#1a1a1a" stroke-width="1.5"/>
+</g>
+
+<!-- Beschriftungen -->
+<g font-size="21" font-weight="bold" fill="#262626" text-anchor="middle">
+<text x="325" y="672">Monitoring</text>
+<text x="492" y="712">Content</text>
+<text x="667" y="680">Collaboration</text>
+<text x="853" y="708">Communication</text>
+<text x="1032" y="694">Finance</text>
+<text x="368" y="923">Object Storage</text>
+<text x="498" y="885">Identity</text>
+<text x="666" y="922">Runtime</text>
+<text x="845" y="899">Queue</text>
+<text x="1028" y="925">Database</text>
+<text x="402" y="1100">Compute</text>
+<text x="665" y="1127">Block Storage</text>
+<text x="922" y="1106">Network</text>
+</g>
+</g>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 560" font-family="Arial, Helvetica, sans-serif">
+<rect width="760" height="560" fill="#fff"/>
+<rect x="75" y="18" width="150" height="50" rx="6" fill="#e8e8e8" stroke="#666"/>
+<text x="150" y="40" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">Browser</text>
+<text x="150" y="58" text-anchor="middle" font-size="11" fill="#444">Laptop in der Beratungsstelle</text>
+<line x1="150" y1="68" x2="150" y2="490" stroke="#b3b3b3" stroke-width="2" stroke-dasharray="4 4"/>
+<rect x="345" y="18" width="150" height="50" rx="6" fill="#e8e8e8" stroke="#666"/>
+<text x="420" y="40" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">DNS-Server</text>
+<text x="420" y="58" text-anchor="middle" font-size="11" fill="#444">„Telefonbuch“ des Internets</text>
+<line x1="420" y1="68" x2="420" y2="490" stroke="#b3b3b3" stroke-width="2" stroke-dasharray="4 4"/>
+<rect x="585" y="18" width="150" height="50" rx="6" fill="#e8e8e8" stroke="#666"/>
+<text x="660" y="40" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">Webserver</text>
+<text x="660" y="58" text-anchor="middle" font-size="11" fill="#444">www.example.org</text>
+<line x1="660" y1="68" x2="660" y2="490" stroke="#b3b3b3" stroke-width="2" stroke-dasharray="4 4"/>
+<rect x="12" y="95" width="6" height="70" fill="#2A9D8F"/><text x="26" y="135" font-size="14" font-weight="bold" fill="#2A9D8F">DNS</text>
+<line x1="158" y1="115" x2="412" y2="115" stroke="#2A9D8F" stroke-width="2.5"/><polygon points="412,115 402,109 402,121" fill="#2A9D8F"/><text x="285" y="107" text-anchor="middle" font-size="13" fill="#1a1a1a" stroke="#fff" stroke-width="5" paint-order="stroke">① Welche IP-Adresse hat www.example.org?</text>
+<line x1="412" y1="155" x2="158" y2="155" stroke="#2A9D8F" stroke-width="2.5" stroke-dasharray="6 4"/><polygon points="158,155 168,149 168,161" fill="#2A9D8F"/><text x="285" y="147" text-anchor="middle" font-size="13" fill="#1a1a1a" stroke="#fff" stroke-width="5" paint-order="stroke">② 203.0.113.10</text>
+<rect x="12" y="190" width="6" height="95" fill="#666"/><text x="26" y="242" font-size="14" font-weight="bold" fill="#666">TCP</text>
+<line x1="158" y1="210" x2="652" y2="210" stroke="#666" stroke-width="2.5"/><polygon points="652,210 642,204 642,216" fill="#666"/><text x="405" y="202" text-anchor="middle" font-size="13" fill="#1a1a1a" stroke="#fff" stroke-width="5" paint-order="stroke">③ Verbindung aufbauen? (an Port 443)</text>
+<line x1="652" y1="240" x2="158" y2="240" stroke="#666" stroke-width="2.5" stroke-dasharray="6 4"/><polygon points="158,240 168,234 168,246" fill="#666"/><text x="405" y="232" text-anchor="middle" font-size="13" fill="#1a1a1a" stroke="#fff" stroke-width="5" paint-order="stroke">④ Ja, bereit!</text>
+<line x1="158" y1="270" x2="652" y2="270" stroke="#666" stroke-width="2.5"/><polygon points="652,270 642,264 642,276" fill="#666"/><text x="405" y="262" text-anchor="middle" font-size="13" fill="#1a1a1a" stroke="#fff" stroke-width="5" paint-order="stroke">⑤ Verbindung steht.</text>
+<rect x="12" y="310" width="6" height="65" fill="#264653"/><text x="26" y="348" font-size="14" font-weight="bold" fill="#264653">TLS</text>
+<line x1="652" y1="330" x2="158" y2="330" stroke="#264653" stroke-width="2.5" stroke-dasharray="6 4"/><polygon points="158,330 168,324 168,336" fill="#264653"/><text x="405" y="322" text-anchor="middle" font-size="13" fill="#1a1a1a" stroke="#fff" stroke-width="5" paint-order="stroke">⑥ Zertifikat: „Ich bin wirklich www.example.org“</text>
+<line x1="158" y1="365" x2="652" y2="365" stroke="#264653" stroke-width="2.5"/><polygon points="652,365 642,359 642,371" fill="#264653"/><text x="405" y="357" text-anchor="middle" font-size="13" fill="#1a1a1a" stroke="#fff" stroke-width="5" paint-order="stroke">⑦ Gemeinsamen Schlüssel vereinbaren</text>
+<rect x="12" y="400" width="6" height="80" fill="#147375"/><text x="26" y="445" font-size="14" font-weight="bold" fill="#147375">HTTP</text>
+<line x1="158" y1="420" x2="652" y2="420" stroke="#147375" stroke-width="2.5"/><polygon points="652,420 642,414 642,426" fill="#147375"/><text x="405" y="412" text-anchor="middle" font-size="13" fill="#1a1a1a" stroke="#fff" stroke-width="5" paint-order="stroke">⑧ GET /  – „Bitte die Startseite“</text>
+<line x1="652" y1="460" x2="158" y2="460" stroke="#147375" stroke-width="2.5" stroke-dasharray="6 4"/><polygon points="158,460 168,454 168,466" fill="#147375"/><text x="405" y="452" text-anchor="middle" font-size="13" fill="#1a1a1a" stroke="#fff" stroke-width="5" paint-order="stroke">⑨ 200 OK + HTML-Seite</text>
+<rect x="28" y="463" width="14" height="11" rx="2" fill="#264653"/>
+<path d="M31,463 v-4 a4,4 0 0 1 8,0 v4" fill="none" stroke="#264653" stroke-width="2"/>
+<text x="47" y="473" font-size="11" fill="#264653">verschlüsselt</text>
+<text x="380" y="512" text-anchor="middle" font-size="13" fill="#444">Alle Nachrichten reisen als <tspan font-weight="bold">IP-Pakete</tspan> mit Absender- und Empfängeradresse durchs Internet.</text>
+<text x="380" y="532" text-anchor="middle" font-size="12" fill="#666">Vereinfachte Darstellung; Beispiel-IP-Adresse</text>
+</svg>

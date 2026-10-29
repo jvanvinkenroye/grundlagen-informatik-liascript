@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 676 454" width="676" height="454" font-family="Arial, Helvetica, sans-serif">
+<rect width="676" height="454" fill="#fff"/>
+<g transform="scale(0.5)">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" markerUnits="strokeWidth" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1a1a1a"/></marker></defs>
+<rect x="4" y="4" width="1344" height="900" fill="none" stroke="#333" stroke-width="3"/>
+<rect x="342" y="170" width="841" height="66" fill="#999"/>
+<rect x="342" y="236" width="70" height="66" fill="#e6e6e6"/>
+<rect x="412" y="236" width="167" height="66" fill="#e6e6e6"/>
+<rect x="579" y="236" width="188" height="66" fill="#e6e6e6"/>
+<rect x="767" y="236" width="199" height="66" fill="#e6e6e6"/>
+<rect x="966" y="236" width="217" height="66" fill="#e6e6e6"/>
+<rect x="342" y="302" width="70" height="66" fill="#cccccc"/>
+<rect x="412" y="302" width="167" height="66" fill="#cccccc"/>
+<rect x="579" y="302" width="188" height="66" fill="#cccccc"/>
+<rect x="767" y="302" width="199" height="66" fill="#cccccc"/>
+<rect x="966" y="302" width="217" height="66" fill="#cccccc"/>
+<rect x="342" y="368" width="70" height="66" fill="#e6e6e6"/>
+<rect x="412" y="368" width="167" height="66" fill="#e6e6e6"/>
+<rect x="579" y="368" width="188" height="66" fill="#e6e6e6"/>
+<rect x="767" y="368" width="199" height="66" fill="#e6e6e6"/>
+<rect x="966" y="368" width="217" height="66" fill="#e6e6e6"/>
+<rect x="342" y="434" width="70" height="66" fill="#e6e6e6"/>
+<rect x="412" y="434" width="167" height="66" fill="#e6e6e6"/>
+<rect x="579" y="434" width="188" height="66" fill="#e6e6e6"/>
+<rect x="767" y="434" width="199" height="66" fill="#e6e6e6"/>
+<rect x="966" y="434" width="217" height="66" fill="#b3b3b3"/>
+<rect x="342" y="500" width="70" height="66" fill="#e6e6e6"/>
+<rect x="412" y="500" width="167" height="66" fill="#e6e6e6"/>
+<rect x="579" y="500" width="188" height="66" fill="#e6e6e6"/>
+<rect x="767" y="500" width="199" height="66" fill="#e6e6e6"/>
+<rect x="966" y="500" width="217" height="66" fill="#e6e6e6"/>
+<rect x="342" y="566" width="70" height="66" fill="#e6e6e6"/>
+<rect x="412" y="566" width="167" height="66" fill="#e6e6e6"/>
+<rect x="579" y="566" width="188" height="66" fill="#e6e6e6"/>
+<rect x="767" y="566" width="199" height="66" fill="#e6e6e6"/>
+<rect x="966" y="566" width="217" height="66" fill="#e6e6e6"/>
+<rect x="342" y="632" width="70" height="67" fill="#e6e6e6"/>
+<rect x="412" y="632" width="167" height="67" fill="#e6e6e6"/>
+<rect x="579" y="632" width="188" height="67" fill="#e6e6e6"/>
+<rect x="767" y="632" width="199" height="67" fill="#e6e6e6"/>
+<rect x="966" y="632" width="217" height="67" fill="#e6e6e6"/>
+<rect x="342" y="699" width="70" height="67" fill="#e6e6e6"/>
+<rect x="412" y="699" width="167" height="67" fill="#e6e6e6"/>
+<rect x="579" y="699" width="188" height="67" fill="#e6e6e6"/>
+<rect x="767" y="699" width="199" height="67" fill="#e6e6e6"/>
+<rect x="966" y="699" width="217" height="67" fill="#e6e6e6"/>
+<rect x="342" y="766" width="70" height="72" fill="#e6e6e6"/>
+<rect x="412" y="766" width="167" height="72" fill="#e6e6e6"/>
+<rect x="579" y="766" width="188" height="72" fill="#e6e6e6"/>
+<rect x="767" y="766" width="199" height="72" fill="#e6e6e6"/>
+<rect x="966" y="766" width="217" height="72" fill="#e6e6e6"/>
+<line x1="342" y1="236" x2="1183" y2="236" stroke="#8c8c8c" stroke-width="1.5"/>
+<line x1="342" y1="302" x2="1183" y2="302" stroke="#8c8c8c" stroke-width="1.5"/>
+<line x1="342" y1="368" x2="1183" y2="368" stroke="#8c8c8c" stroke-width="1.5"/>
+<line x1="342" y1="434" x2="1183" y2="434" stroke="#8c8c8c" stroke-width="1.5"/>
+<line x1="342" y1="500" x2="1183" y2="500" stroke="#8c8c8c" stroke-width="1.5"/>
+<line x1="342" y1="566" x2="1183" y2="566" stroke="#8c8c8c" stroke-width="1.5"/>
+<line x1="342" y1="632" x2="1183" y2="632" stroke="#8c8c8c" stroke-width="1.5"/>
+<line x1="342" y1="699" x2="1183" y2="699" stroke="#8c8c8c" stroke-width="1.5"/>
+<line x1="342" y1="766" x2="1183" y2="766" stroke="#8c8c8c" stroke-width="1.5"/>
+<line x1="412" y1="170" x2="412" y2="838" stroke="#666" stroke-width="1.5"/>
+<line x1="579" y1="170" x2="579" y2="838" stroke="#666" stroke-width="1.5"/>
+<line x1="767" y1="170" x2="767" y2="838" stroke="#666" stroke-width="1.5"/>
+<line x1="966" y1="170" x2="966" y2="838" stroke="#666" stroke-width="1.5"/>
+<rect x="342" y="170" width="841" height="668" fill="none" stroke="#1a1a1a" stroke-width="3"/>
+<text x="354" y="215.2" font-size="34" font-weight="bold" fill="#1a1a1a">ID</text>
+<text x="424" y="215.2" font-size="34" font-weight="bold" fill="#1a1a1a">Name</text>
+<text x="591" y="215.2" font-size="34" font-weight="bold" fill="#1a1a1a">Vorname</text>
+<text x="779" y="215.2" font-size="34" font-weight="bold" fill="#1a1a1a">Geb-Dat.</text>
+<text x="978" y="215.2" font-size="34" font-weight="bold" fill="#1a1a1a">Wohnort</text>
+<text x="354" y="280.9" font-size="33" fill="#1a1a1a">01</text>
+<text x="424" y="280.9" font-size="33" fill="#1a1a1a">Amann</text>
+<text x="591" y="280.9" font-size="33" fill="#1a1a1a">Dieter</text>
+<text x="779" y="280.9" font-size="33" fill="#1a1a1a">17.02.1943</text>
+<text x="978" y="280.9" font-size="33" fill="#1a1a1a">Damhorst</text>
+<text x="354" y="346.9" font-size="33" fill="#1a1a1a">02</text>
+<text x="424" y="346.9" font-size="33" fill="#1a1a1a">Braun</text>
+<text x="591" y="346.9" font-size="33" fill="#1a1a1a">Rita</text>
+<text x="779" y="346.9" font-size="33" fill="#1a1a1a">03.08.1960</text>
+<text x="978" y="346.9" font-size="33" fill="#1a1a1a">Lindlen</text>
+<text x="354" y="412.9" font-size="33" fill="#1a1a1a">03</text>
+<text x="424" y="412.9" font-size="33" fill="#1a1a1a">Christ</text>
+<text x="591" y="412.9" font-size="33" fill="#1a1a1a">Jens</text>
+<text x="779" y="412.9" font-size="33" fill="#1a1a1a">11.12.1981</text>
+<text x="978" y="412.9" font-size="33" fill="#1a1a1a">Sieldorf</text>
+<text x="354" y="478.9" font-size="33" fill="#1a1a1a">04</text>
+<text x="424" y="478.9" font-size="33" fill="#1a1a1a">Diemer</text>
+<text x="591" y="478.9" font-size="33" fill="#1a1a1a">Max</text>
+<text x="779" y="478.9" font-size="33" fill="#1a1a1a">30.07.1926</text>
+<text x="978" y="478.9" font-size="33" fill="#1a1a1a">Flaming</text>
+<text x="354" y="544.9" font-size="33" fill="#1a1a1a">05</text>
+<text x="424" y="544.9" font-size="33" fill="#1a1a1a">Erhard</text>
+<text x="591" y="544.9" font-size="33" fill="#1a1a1a">Eva</text>
+<text x="779" y="544.9" font-size="33" fill="#1a1a1a">25.03.1939</text>
+<text x="978" y="544.9" font-size="33" fill="#1a1a1a">Lindlen</text>
+<text x="354" y="610.9" font-size="33" fill="#1a1a1a">06</text>
+<text x="424" y="610.9" font-size="33" fill="#1a1a1a">Fligg</text>
+<text x="591" y="610.9" font-size="33" fill="#1a1a1a">Gert</text>
+<text x="779" y="610.9" font-size="33" fill="#1a1a1a">09.11.1958</text>
+<text x="978" y="610.9" font-size="33" fill="#1a1a1a">Wushof</text>
+<text x="488" y="90" text-anchor="middle" font-size="36" font-weight="bold" fill="#1a1a1a">Spalte</text>
+<line x1="490" y1="105" x2="490" y2="166" stroke="#1a1a1a" stroke-width="3" marker-end="url(#ah)"/>
+<text x="965" y="92" text-anchor="middle" font-size="36" font-weight="bold" fill="#1a1a1a">Feld-Name</text>
+<line x1="982" y1="102" x2="1033" y2="164" stroke="#1a1a1a" stroke-width="3" marker-end="url(#ah)"/>
+<text x="44" y="346" font-size="36" font-weight="bold" fill="#1a1a1a">Datensatz</text>
+<line x1="238" y1="337" x2="340" y2="337" stroke="#1a1a1a" stroke-width="3" marker-end="url(#ah)"/>
+<text x="1260" y="400" text-anchor="middle" font-size="36" font-weight="bold" fill="#1a1a1a">Feld</text>
+<line x1="1248" y1="416" x2="1150" y2="463" stroke="#1a1a1a" stroke-width="3" marker-end="url(#ah)"/>
+</g>
+</svg>

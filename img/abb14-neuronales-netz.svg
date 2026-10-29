@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 655.5 744.5" width="655.5" height="744.5">
+<rect x="0" y="0" width="655.5" height="744.5" fill="#fff"/>
+<defs><g id="face"><path d="M -58 54 C -70 -10 -58 -76 0 -76 C 58 -76 70 -10 58 54 Q 50 62 42 52 L -42 52 Q -50 62 -58 54 Z" fill="#1a1a1a"/><ellipse cx="0" cy="6" rx="40" ry="54" fill="#e6e6e6" stroke="#1a1a1a" stroke-width="2.5"/><path d="M -42 4 C -46 -46 -18 -62 0 -54 C 18 -62 46 -46 42 4 C 34 -22 20 -32 2 -28 C -18 -34 -34 -22 -42 4 Z" fill="#1a1a1a"/><g fill="none" stroke="#1a1a1a" stroke-width="3.5" stroke-linecap="round"><path d="M -30 -4 Q -20 -12 -10 -4"/><path d="M 10 -4 Q 20 -12 30 -4"/><path d="M -2 12 Q -6 22 0 24"/><path d="M -14 36 Q 0 46 14 36"/><path d="M -6 48 Q 0 50 6 48"/></g><ellipse cx="-20" cy="3" rx="8" ry="3.5" fill="#1a1a1a"/><ellipse cx="20" cy="3" rx="8" ry="3.5" fill="#1a1a1a"/></g></defs>
+<rect x="13.5" y="2.5" width="635.5" height="722.5" fill="#cccccc"/>
+<clipPath id="c1"><rect x="284.0" y="27.5" width="90.0" height="90.0"/></clipPath>
+<g clip-path="url(#c1)"><rect x="284.0" y="27.5" width="90.0" height="90.0" fill="#e6e6e6"/><use href="#face" transform="translate(329.0 72.5) scale(0.575) translate(0 0)"/></g>
+<path d="M 322.5 117.5 L 337.5 117.5 L 337.5 134.0 L 349.0 134.0 L 330.0 152.5 L 311.0 134.0 L 322.5 134.0 Z" fill="#e6e6e6"/>
+<rect x="171.5" y="162.5" width="463.5" height="36.0" fill="#999"/>
+<rect x="171.5" y="265.5" width="463.5" height="36.0" fill="#b3b3b3"/>
+<rect x="171.5" y="375.0" width="463.5" height="36.0" fill="#b3b3b3"/>
+<rect x="171.5" y="484.5" width="463.5" height="36.0" fill="#b3b3b3"/>
+<rect x="171.5" y="592.0" width="463.5" height="36.0" fill="#e6e6e6"/>
+<g stroke="#fff" stroke-width="1" stroke-opacity="0.85">
+<line x1="254.0" y1="180.5" x2="216.5" y2="283.5"/>
+<line x1="254.0" y1="180.5" x2="251.5" y2="283.5"/>
+<line x1="254.0" y1="180.5" x2="286.5" y2="283.5"/>
+<line x1="254.0" y1="180.5" x2="321.5" y2="283.5"/>
+<line x1="254.0" y1="180.5" x2="356.5" y2="283.5"/>
+<line x1="254.0" y1="180.5" x2="391.5" y2="283.5"/>
+<line x1="254.0" y1="180.5" x2="426.5" y2="283.5"/>
+<line x1="287.5" y1="180.5" x2="216.5" y2="283.5"/>
+<line x1="287.5" y1="180.5" x2="251.5" y2="283.5"/>
+<line x1="287.5" y1="180.5" x2="286.5" y2="283.5"/>
+<line x1="287.5" y1="180.5" x2="321.5" y2="283.5"/>
+<line x1="287.5" y1="180.5" x2="356.5" y2="283.5"/>
+<line x1="287.5" y1="180.5" x2="391.5" y2="283.5"/>
+<line x1="287.5" y1="180.5" x2="426.5" y2="283.5"/>
+<line x1="321.0" y1="180.5" x2="216.5" y2="283.5"/>
+<line x1="321.0" y1="180.5" x2="251.5" y2="283.5"/>
+<line x1="321.0" y1="180.5" x2="286.5" y2="283.5"/>
+<line x1="321.0" y1="180.5" x2="321.5" y2="283.5"/>
+<line x1="321.0" y1="180.5" x2="356.5" y2="283.5"/>
+<line x1="321.0" y1="180.5" x2="391.5" y2="283.5"/>
+<line x1="321.0" y1="180.5" x2="426.5" y2="283.5"/>
+<line x1="354.5" y1="180.5" x2="216.5" y2="283.5"/>
+<line x1="354.5" y1="180.5" x2="251.5" y2="283.5"/>
+<line x1="354.5" y1="180.5" x2="286.5" y2="283.5"/>
+<line x1="354.5" y1="180.5" x2="321.5" y2="283.5"/>
+<line x1="354.5" y1="180.5" x2="356.5" y2="283.5"/>
+<line x1="354.5" y1="180.5" x2="391.5" y2="283.5"/>
+<line x1="354.5" y1="180.5" x2="426.5" y2="283.5"/>
+<line x1="388.0" y1="180.5" x2="216.5" y2="283.5"/>
+<line x1="388.0" y1="180.5" x2="251.5" y2="283.5"/>
+<line x1="388.0" y1="180.5" x2="286.5" y2="283.5"/>
+<line x1="388.0" y1="180.5" x2="321.5" y2="283.5"/>
+<line x1="388.0" y1="180.5" x2="356.5" y2="283.5"/>
+<line x1="388.0" y1="180.5" x2="391.5" y2="283.5"/>
+<line x1="388.0" y1="180.5" x2="426.5" y2="283.5"/>
+<line x1="216.5" y1="283.5" x2="216.5" y2="393.0"/>
+<line x1="216.5" y1="283.5" x2="251.5" y2="393.0"/>
+<line x1="216.5" y1="283.5" x2="286.5" y2="393.0"/>
+<line x1="216.5" y1="283.5" x2="321.5" y2="393.0"/>
+<line x1="216.5" y1="283.5" x2="356.5" y2="393.0"/>
+<line x1="216.5" y1="283.5" x2="391.5" y2="393.0"/>
+<line x1="216.5" y1="283.5" x2="426.5" y2="393.0"/>
+<line x1="251.5" y1="283.5" x2="216.5" y2="393.0"/>
+<line x1="251.5" y1="283.5" x2="251.5" y2="393.0"/>
+<line x1="251.5" y1="283.5" x2="286.5" y2="393.0"/>
+<line x1="251.5" y1="283.5" x2="321.5" y2="393.0"/>
+<line x1="251.5" y1="283.5" x2="356.5" y2="393.0"/>
+<line x1="251.5" y1="283.5" x2="391.5" y2="393.0"/>
+<line x1="251.5" y1="283.5" x2="426.5" y2="393.0"/>
+<line x1="286.5" y1="283.5" x2="216.5" y2="393.0"/>
+<line x1="286.5" y1="283.5" x2="251.5" y2="393.0"/>
+<line x1="286.5" y1="283.5" x2="286.5" y2="393.0"/>
+<line x1="286.5" y1="283.5" x2="321.5" y2="393.0"/>
+<line x1="286.5" y1="283.5" x2="356.5" y2="393.0"/>
+<line x1="286.5" y1="283.5" x2="391.5" y2="393.0"/>
+<line x1="286.5" y1="283.5" x2="426.5" y2="393.0"/>
+<line x1="321.5" y1="283.5" x2="216.5" y2="393.0"/>
+<line x1="321.5" y1="283.5" x2="251.5" y2="393.0"/>
+<line x1="321.5" y1="283.5" x2="286.5" y2="393.0"/>
+<line x1="321.5" y1="283.5" x2="321.5" y2="393.0"/>
+<line x1="321.5" y1="283.5" x2="356.5" y2="393.0"/>
+<line x1="321.5" y1="283.5" x2="391.5" y2="393.0"/>
+<line x1="321.5" y1="283.5" x2="426.5" y2="393.0"/>
+<line x1="356.5" y1="283.5" x2="216.5" y2="393.0"/>
+<line x1="356.5" y1="283.5" x2="251.5" y2="393.0"/>
+<line x1="356.5" y1="283.5" x2="286.5" y2="393.0"/>
+<line x1="356.5" y1="283.5" x2="321.5" y2="393.0"/>
+<line x1="356.5" y1="283.5" x2="356.5" y2="393.0"/>
+<line x1="356.5" y1="283.5" x2="391.5" y2="393.0"/>
+<line x1="356.5" y1="283.5" x2="426.5" y2="393.0"/>
+<line x1="391.5" y1="283.5" x2="216.5" y2="393.0"/>
+<line x1="391.5" y1="283.5" x2="251.5" y2="393.0"/>
+<line x1="391.5" y1="283.5" x2="286.5" y2="393.0"/>
+<line x1="391.5" y1="283.5" x2="321.5" y2="393.0"/>
+<line x1="391.5" y1="283.5" x2="356.5" y2="393.0"/>
+<line x1="391.5" y1="283.5" x2="391.5" y2="393.0"/>
+<line x1="391.5" y1="283.5" x2="426.5" y2="393.0"/>
+<line x1="426.5" y1="283.5" x2="216.5" y2="393.0"/>
+<line x1="426.5" y1="283.5" x2="251.5" y2="393.0"/>
+<line x1="426.5" y1="283.5" x2="286.5" y2="393.0"/>
+<line x1="426.5" y1="283.5" x2="321.5" y2="393.0"/>
+<line x1="426.5" y1="283.5" x2="356.5" y2="393.0"/>
+<line x1="426.5" y1="283.5" x2="391.5" y2="393.0"/>
+<line x1="426.5" y1="283.5" x2="426.5" y2="393.0"/>
+<line x1="216.5" y1="393.0" x2="216.5" y2="502.5"/>
+<line x1="216.5" y1="393.0" x2="251.5" y2="502.5"/>
+<line x1="216.5" y1="393.0" x2="286.5" y2="502.5"/>
+<line x1="216.5" y1="393.0" x2="321.5" y2="502.5"/>
+<line x1="216.5" y1="393.0" x2="356.5" y2="502.5"/>
+<line x1="216.5" y1="393.0" x2="391.5" y2="502.5"/>
+<line x1="216.5" y1="393.0" x2="426.5" y2="502.5"/>
+<line x1="251.5" y1="393.0" x2="216.5" y2="502.5"/>
+<line x1="251.5" y1="393.0" x2="251.5" y2="502.5"/>
+<line x1="251.5" y1="393.0" x2="286.5" y2="502.5"/>
+<line x1="251.5" y1="393.0" x2="321.5" y2="502.5"/>
+<line x1="251.5" y1="393.0" x2="356.5" y2="502.5"/>
+<line x1="251.5" y1="393.0" x2="391.5" y2="502.5"/>
+<line x1="251.5" y1="393.0" x2="426.5" y2="502.5"/>
+<line x1="286.5" y1="393.0" x2="216.5" y2="502.5"/>
+<line x1="286.5" y1="393.0" x2="251.5" y2="502.5"/>
+<line x1="286.5" y1="393.0" x2="286.5" y2="502.5"/>
+<line x1="286.5" y1="393.0" x2="321.5" y2="502.5"/>
+<line x1="286.5" y1="393.0" x2="356.5" y2="502.5"/>
+<line x1="286.5" y1="393.0" x2="391.5" y2="502.5"/>
+<line x1="286.5" y1="393.0" x2="426.5" y2="502.5"/>
+<line x1="321.5" y1="393.0" x2="216.5" y2="502.5"/>
+<line x1="321.5" y1="393.0" x2="251.5" y2="502.5"/>
+<line x1="321.5" y1="393.0" x2="286.5" y2="502.5"/>
+<line x1="321.5" y1="393.0" x2="321.5" y2="502.5"/>
+<line x1="321.5" y1="393.0" x2="356.5" y2="502.5"/>
+<line x1="321.5" y1="393.0" x2="391.5" y2="502.5"/>
+<line x1="321.5" y1="393.0" x2="426.5" y2="502.5"/>
+<line x1="356.5" y1="393.0" x2="216.5" y2="502.5"/>
+<line x1="356.5" y1="393.0" x2="251.5" y2="502.5"/>
+<line x1="356.5" y1="393.0" x2="286.5" y2="502.5"/>
+<line x1="356.5" y1="393.0" x2="321.5" y2="502.5"/>
+<line x1="356.5" y1="393.0" x2="356.5" y2="502.5"/>
+<line x1="356.5" y1="393.0" x2="391.5" y2="502.5"/>
+<line x1="356.5" y1="393.0" x2="426.5" y2="502.5"/>
+<line x1="391.5" y1="393.0" x2="216.5" y2="502.5"/>
+<line x1="391.5" y1="393.0" x2="251.5" y2="502.5"/>
+<line x1="391.5" y1="393.0" x2="286.5" y2="502.5"/>
+<line x1="391.5" y1="393.0" x2="321.5" y2="502.5"/>
+<line x1="391.5" y1="393.0" x2="356.5" y2="502.5"/>
+<line x1="391.5" y1="393.0" x2="391.5" y2="502.5"/>
+<line x1="391.5" y1="393.0" x2="426.5" y2="502.5"/>
+<line x1="426.5" y1="393.0" x2="216.5" y2="502.5"/>
+<line x1="426.5" y1="393.0" x2="251.5" y2="502.5"/>
+<line x1="426.5" y1="393.0" x2="286.5" y2="502.5"/>
+<line x1="426.5" y1="393.0" x2="321.5" y2="502.5"/>
+<line x1="426.5" y1="393.0" x2="356.5" y2="502.5"/>
+<line x1="426.5" y1="393.0" x2="391.5" y2="502.5"/>
+<line x1="426.5" y1="393.0" x2="426.5" y2="502.5"/>
+<line x1="216.5" y1="502.5" x2="270.0" y2="610.0"/>
+<line x1="216.5" y1="502.5" x2="304.2" y2="610.0"/>
+<line x1="216.5" y1="502.5" x2="338.5" y2="610.0"/>
+<line x1="216.5" y1="502.5" x2="372.8" y2="610.0"/>
+<line x1="251.5" y1="502.5" x2="270.0" y2="610.0"/>
+<line x1="251.5" y1="502.5" x2="304.2" y2="610.0"/>
+<line x1="251.5" y1="502.5" x2="338.5" y2="610.0"/>
+<line x1="251.5" y1="502.5" x2="372.8" y2="610.0"/>
+<line x1="286.5" y1="502.5" x2="270.0" y2="610.0"/>
+<line x1="286.5" y1="502.5" x2="304.2" y2="610.0"/>
+<line x1="286.5" y1="502.5" x2="338.5" y2="610.0"/>
+<line x1="286.5" y1="502.5" x2="372.8" y2="610.0"/>
+<line x1="321.5" y1="502.5" x2="270.0" y2="610.0"/>
+<line x1="321.5" y1="502.5" x2="304.2" y2="610.0"/>
+<line x1="321.5" y1="502.5" x2="338.5" y2="610.0"/>
+<line x1="321.5" y1="502.5" x2="372.8" y2="610.0"/>
+<line x1="356.5" y1="502.5" x2="270.0" y2="610.0"/>
+<line x1="356.5" y1="502.5" x2="304.2" y2="610.0"/>
+<line x1="356.5" y1="502.5" x2="338.5" y2="610.0"/>
+<line x1="356.5" y1="502.5" x2="372.8" y2="610.0"/>
+<line x1="391.5" y1="502.5" x2="270.0" y2="610.0"/>
+<line x1="391.5" y1="502.5" x2="304.2" y2="610.0"/>
+<line x1="391.5" y1="502.5" x2="338.5" y2="610.0"/>
+<line x1="391.5" y1="502.5" x2="372.8" y2="610.0"/>
+<line x1="426.5" y1="502.5" x2="270.0" y2="610.0"/>
+<line x1="426.5" y1="502.5" x2="304.2" y2="610.0"/>
+<line x1="426.5" y1="502.5" x2="338.5" y2="610.0"/>
+<line x1="426.5" y1="502.5" x2="372.8" y2="610.0"/>
+</g>
+<circle cx="254.0" cy="180.5" r="13.5" fill="#c4c4c4"/>
+<circle cx="287.5" cy="180.5" r="13.5" fill="#fff"/>
+<circle cx="321.0" cy="180.5" r="13.5" fill="#fff"/>
+<circle cx="354.5" cy="180.5" r="13.5" fill="#c4c4c4"/>
+<circle cx="388.0" cy="180.5" r="13.5" fill="#fff"/>
+<circle cx="216.5" cy="283.5" r="13.5" fill="#fff"/>
+<circle cx="251.5" cy="283.5" r="13.5" fill="#c4c4c4"/>
+<circle cx="286.5" cy="283.5" r="13.5" fill="#fff"/>
+<circle cx="321.5" cy="283.5" r="13.5" fill="#c4c4c4"/>
+<circle cx="356.5" cy="283.5" r="13.5" fill="#fff"/>
+<circle cx="391.5" cy="283.5" r="13.5" fill="#fff"/>
+<circle cx="426.5" cy="283.5" r="13.5" fill="#fff"/>
+<circle cx="216.5" cy="393.0" r="13.5" fill="#fff"/>
+<circle cx="251.5" cy="393.0" r="13.5" fill="#fff"/>
+<circle cx="286.5" cy="393.0" r="13.5" fill="#c4c4c4"/>
+<circle cx="321.5" cy="393.0" r="13.5" fill="#fff"/>
+<circle cx="356.5" cy="393.0" r="13.5" fill="#fff"/>
+<circle cx="391.5" cy="393.0" r="13.5" fill="#c4c4c4"/>
+<circle cx="426.5" cy="393.0" r="13.5" fill="#fff"/>
+<circle cx="216.5" cy="502.5" r="13.5" fill="#fff"/>
+<circle cx="251.5" cy="502.5" r="13.5" fill="#fff"/>
+<circle cx="286.5" cy="502.5" r="13.5" fill="#c4c4c4"/>
+<circle cx="321.5" cy="502.5" r="13.5" fill="#fff"/>
+<circle cx="356.5" cy="502.5" r="13.5" fill="#fff"/>
+<circle cx="391.5" cy="502.5" r="13.5" fill="#fff"/>
+<circle cx="426.5" cy="502.5" r="13.5" fill="#fff"/>
+<circle cx="270.0" cy="610.0" r="13.5" fill="#fff"/>
+<circle cx="304.2" cy="610.0" r="13.5" fill="#fff"/>
+<circle cx="338.5" cy="610.0" r="13.5" fill="#999"/>
+<circle cx="372.8" cy="610.0" r="13.5" fill="#fff"/>
+<text font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#1a1a1a"><tspan x="456.0" y="97.5" font-weight="bold">Eingabe</tspan><tspan x="456.0" y="114.5">Das Netz erhält ein Bild</tspan><tspan x="456.0" y="131.5">mit einem Gesicht</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#1a1a1a"><tspan x="456.0" y="185.0" font-weight="bold">Eingabeschicht</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#1a1a1a"><tspan x="456.0" y="288.0" font-weight="bold">1. verdeckte Schicht</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#1a1a1a"><tspan x="456.0" y="397.5" font-weight="bold">2. verdeckte Schicht</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#1a1a1a"><tspan x="456.0" y="507.0" font-weight="bold">3. verdeckte Schicht</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#1a1a1a"><tspan x="456.0" y="614.5" font-weight="bold">Ausgabeschicht</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#1a1a1a"><tspan x="456.0" y="221.5">Das Netz identifiziert</tspan><tspan x="456.0" y="238.5">helle/dunkle Pixelwerte</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#1a1a1a"><tspan x="456.0" y="332.0">Das Netzwerk erfasst</tspan><tspan x="456.0" y="349.0">grobe Formen wie Kanten</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#1a1a1a"><tspan x="456.0" y="431.0">Es erkennt präzisere,</tspan><tspan x="456.0" y="448.0">wiederkehrende</tspan><tspan x="456.0" y="465.0">Formen</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#1a1a1a"><tspan x="456.0" y="541.5">Es vergleicht Merkmale</tspan><tspan x="456.0" y="558.5">untereinander, wie z.B.</tspan><tspan x="456.0" y="575.5">Auge, Nase und Mund.</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#1a1a1a"><tspan x="456.0" y="646.0">Gibt anhand der Analysen</tspan><tspan x="456.0" y="663.0">und Verknüpfungen an,</tspan><tspan x="456.0" y="680.0">mit welcher Wahrscheinlichkeit</tspan><tspan x="456.0" y="697.0">es sich um ein Gesicht handelt.</tspan></text>
+<rect x="46.5" y="161.5" width="29.7" height="29.7" fill="#1a1a1a"/>
+<rect x="76.2" y="161.5" width="29.7" height="29.7" fill="#e6e6e6"/>
+<rect x="105.8" y="161.5" width="29.7" height="29.7" fill="#1a1a1a"/>
+<rect x="46.5" y="191.2" width="29.7" height="29.7" fill="#e6e6e6"/>
+<rect x="76.2" y="191.2" width="29.7" height="29.7" fill="#1a1a1a"/>
+<rect x="105.8" y="191.2" width="29.7" height="29.7" fill="#e6e6e6"/>
+<rect x="46.5" y="220.8" width="29.7" height="29.7" fill="#1a1a1a"/>
+<rect x="76.2" y="220.8" width="29.7" height="29.7" fill="#e6e6e6"/>
+<rect x="105.8" y="220.8" width="29.7" height="29.7" fill="#1a1a1a"/>
+<line x1="76.2" y1="161.5" x2="76.2" y2="250.5" stroke="#999" stroke-width="1"/>
+<line x1="46.5" y1="191.2" x2="135.5" y2="191.2" stroke="#999" stroke-width="1"/>
+<line x1="105.8" y1="161.5" x2="105.8" y2="250.5" stroke="#999" stroke-width="1"/>
+<line x1="46.5" y1="220.8" x2="135.5" y2="220.8" stroke="#999" stroke-width="1"/>
+<rect x="46.5" y="161.5" width="89.0" height="89.0" fill="none" stroke="#b3b3b3" stroke-width="1.5"/>
+<clipPath id="c2"><rect x="46.5" y="266.5" width="29.7" height="29.7"/></clipPath>
+<g clip-path="url(#c2)"><rect x="46.5" y="266.5" width="29.7" height="29.7" fill="#e6e6e6"/><use href="#face" transform="translate(61.3 281.3) scale(2.0) translate(50 52)"/></g>
+<clipPath id="c3"><rect x="76.2" y="266.5" width="29.7" height="29.7"/></clipPath>
+<g clip-path="url(#c3)"><rect x="76.2" y="266.5" width="29.7" height="29.7" fill="#e6e6e6"/><use href="#face" transform="translate(91.0 281.3) scale(2.0) translate(0 58)"/></g>
+<clipPath id="c4"><rect x="105.8" y="266.5" width="29.7" height="29.7"/></clipPath>
+<g clip-path="url(#c4)"><rect x="105.8" y="266.5" width="29.7" height="29.7" fill="#e6e6e6"/><use href="#face" transform="translate(120.7 281.3) scale(2.0) translate(-50 52)"/></g>
+<clipPath id="c5"><rect x="46.5" y="296.2" width="29.7" height="29.7"/></clipPath>
+<g clip-path="url(#c5)"><rect x="46.5" y="296.2" width="29.7" height="29.7" fill="#e6e6e6"/><use href="#face" transform="translate(61.3 311.0) scale(2.0) translate(40 -12)"/></g>
+<clipPath id="c6"><rect x="76.2" y="296.2" width="29.7" height="29.7"/></clipPath>
+<g clip-path="url(#c6)"><rect x="76.2" y="296.2" width="29.7" height="29.7" fill="#e6e6e6"/><use href="#face" transform="translate(91.0 311.0) scale(2.0) translate(22 24)"/></g>
+<clipPath id="c7"><rect x="105.8" y="296.2" width="29.7" height="29.7"/></clipPath>
+<g clip-path="url(#c7)"><rect x="105.8" y="296.2" width="29.7" height="29.7" fill="#e6e6e6"/><use href="#face" transform="translate(120.7 311.0) scale(2.0) translate(-40 -12)"/></g>
+<clipPath id="c8"><rect x="46.5" y="325.8" width="29.7" height="29.7"/></clipPath>
+<g clip-path="url(#c8)"><rect x="46.5" y="325.8" width="29.7" height="29.7" fill="#e6e6e6"/><use href="#face" transform="translate(61.3 340.7) scale(2.0) translate(48 -54)"/></g>
+<clipPath id="c9"><rect x="76.2" y="325.8" width="29.7" height="29.7"/></clipPath>
+<g clip-path="url(#c9)"><rect x="76.2" y="325.8" width="29.7" height="29.7" fill="#e6e6e6"/><use href="#face" transform="translate(91.0 340.7) scale(2.0) translate(0 -40)"/></g>
+<clipPath id="c10"><rect x="105.8" y="325.8" width="29.7" height="29.7"/></clipPath>
+<g clip-path="url(#c10)"><rect x="105.8" y="325.8" width="29.7" height="29.7" fill="#e6e6e6"/><use href="#face" transform="translate(120.7 340.7) scale(2.0) translate(-48 -54)"/></g>
+<line x1="76.2" y1="266.5" x2="76.2" y2="355.5" stroke="#999" stroke-width="1"/>
+<line x1="46.5" y1="296.2" x2="135.5" y2="296.2" stroke="#999" stroke-width="1"/>
+<line x1="105.8" y1="266.5" x2="105.8" y2="355.5" stroke="#999" stroke-width="1"/>
+<line x1="46.5" y1="325.8" x2="135.5" y2="325.8" stroke="#999" stroke-width="1"/>
+<rect x="46.5" y="266.5" width="89.0" height="89.0" fill="none" stroke="#b3b3b3" stroke-width="1.5"/>
+<clipPath id="c11"><rect x="46.5" y="378.5" width="44.5" height="44.5"/></clipPath>
+<g clip-path="url(#c11)"><rect x="46.5" y="378.5" width="44.5" height="44.5" fill="#e6e6e6"/><use href="#face" transform="translate(68.8 400.8) scale(1.0) translate(30 0)"/></g>
+<clipPath id="c12"><rect x="91.0" y="378.5" width="44.5" height="44.5"/></clipPath>
+<g clip-path="url(#c12)"><rect x="91.0" y="378.5" width="44.5" height="44.5" fill="#e6e6e6"/><use href="#face" transform="translate(113.2 400.8) scale(1.0) translate(0 -52)"/></g>
+<clipPath id="c13"><rect x="46.5" y="423.0" width="44.5" height="44.5"/></clipPath>
+<g clip-path="url(#c13)"><rect x="46.5" y="423.0" width="44.5" height="44.5" fill="#e6e6e6"/><use href="#face" transform="translate(68.8 445.2) scale(1.0) translate(0 6)"/></g>
+<clipPath id="c14"><rect x="91.0" y="423.0" width="44.5" height="44.5"/></clipPath>
+<g clip-path="url(#c14)"><rect x="91.0" y="423.0" width="44.5" height="44.5" fill="#e6e6e6"/><use href="#face" transform="translate(113.2 445.2) scale(1.0) translate(-36 0)"/></g>
+<line x1="91.0" y1="378.5" x2="91.0" y2="467.5" stroke="#999" stroke-width="1"/>
+<line x1="46.5" y1="423.0" x2="135.5" y2="423.0" stroke="#999" stroke-width="1"/>
+<rect x="46.5" y="378.5" width="89.0" height="89.0" fill="none" stroke="#b3b3b3" stroke-width="1.5"/>
+<clipPath id="c15"><rect x="46.5" y="485.0" width="44.5" height="44.5"/></clipPath>
+<g clip-path="url(#c15)"><rect x="46.5" y="485.0" width="44.5" height="44.5" fill="#e6e6e6"/><use href="#face" transform="translate(68.8 507.2) scale(1.8) translate(20 2)"/></g>
+<clipPath id="c16"><rect x="91.0" y="485.0" width="44.5" height="44.5"/></clipPath>
+<g clip-path="url(#c16)"><rect x="91.0" y="485.0" width="44.5" height="44.5" fill="#e6e6e6"/><use href="#face" transform="translate(113.2 507.2) scale(1.8) translate(0 -20)"/></g>
+<clipPath id="c17"><rect x="46.5" y="529.5" width="44.5" height="44.5"/></clipPath>
+<g clip-path="url(#c17)"><rect x="46.5" y="529.5" width="44.5" height="44.5" fill="#e6e6e6"/><use href="#face" transform="translate(68.8 551.8) scale(1.8) translate(0 -40)"/></g>
+<clipPath id="c18"><rect x="91.0" y="529.5" width="44.5" height="44.5"/></clipPath>
+<g clip-path="url(#c18)"><rect x="91.0" y="529.5" width="44.5" height="44.5" fill="#e6e6e6"/><use href="#face" transform="translate(113.2 551.8) scale(1.8) translate(-20 2)"/></g>
+<line x1="91.0" y1="485.0" x2="91.0" y2="574.0" stroke="#999" stroke-width="1"/>
+<line x1="46.5" y1="529.5" x2="135.5" y2="529.5" stroke="#999" stroke-width="1"/>
+<rect x="46.5" y="485.0" width="89.0" height="89.0" fill="none" stroke="#b3b3b3" stroke-width="1.5"/>
+<clipPath id="c19"><rect x="46.5" y="592.5" width="89.0" height="89.0"/></clipPath>
+<g clip-path="url(#c19)"><rect x="46.5" y="592.5" width="89.0" height="89.0" fill="#e6e6e6"/><use href="#face" transform="translate(91.0 637.0) scale(0.56) translate(0 0)"/></g>
+<rect x="46.5" y="592.5" width="89.0" height="89.0" fill="none" stroke="#b3b3b3" stroke-width="1.5"/>
+<text font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="13.0" fill="#1a1a1a" text-anchor="middle"><tspan x="91.0" y="701.0">zu 98,3 %</tspan><tspan x="91.0" y="718.0">ein Gesicht</tspan></text>
+</svg>

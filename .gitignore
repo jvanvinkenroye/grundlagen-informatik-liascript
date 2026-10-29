@@ -1,0 +1,15 @@
+# Erzeugte SCORM-Pakete
+export/
+
+# Python
+__pycache__/
+*.pyc
+.ruff_cache/
+
+# macOS
+.DS_Store
+
+# Editor- und Werkzeugdateien
+.claude/
+.vscode/
+.idea/

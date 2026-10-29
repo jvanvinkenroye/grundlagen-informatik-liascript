@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 670 612" width="670" height="612" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<g id="tcmon">
+<rect x="0" y="0" width="135" height="110" rx="4" fill="#333"/>
+<rect x="8" y="8" width="119" height="90" fill="#666"/>
+</g>
+<g id="kbd">
+<rect x="0" y="0" width="165" height="40" rx="4" fill="#333"/>
+<rect x="8" y="6" width="149" height="26" fill="#cccccc"/>
+<path d="M8,15 H157 M8,24 H157 M20,6 V32 M32,6 V32 M44,6 V32 M56,6 V32 M68,6 V32 M80,6 V32 M92,6 V32 M104,6 V32 M116,6 V32 M128,6 V32 M140,6 V32" stroke="#333" stroke-width="1.5"/>
+</g>
+<g id="tcbox">
+<rect x="0" y="0" width="16" height="100" fill="#f2f2f2" stroke="#999" stroke-width="1.5"/>
+<circle cx="8" cy="20" r="2.5" fill="#666"/>
+</g>
+<g id="thinclients">
+<use xlink:href="#tcbox" x="185" y="75"/>
+<use xlink:href="#tcbox" x="200" y="90"/>
+<use xlink:href="#tcbox" x="215" y="105"/>
+<rect x="209" y="200" width="24" height="5" fill="#999"/>
+<use xlink:href="#tcmon" x="15" y="0"/>
+<use xlink:href="#tcmon" x="33" y="15"/>
+<use xlink:href="#tcmon" x="50" y="32"/>
+<rect x="38" y="112" width="40" height="8" fill="#333"/>
+<rect x="56" y="127" width="40" height="8" fill="#333"/>
+<rect x="73" y="142" width="80" height="8" fill="#333"/>
+<use xlink:href="#kbd" x="0" y="122"/>
+<use xlink:href="#kbd" x="16" y="138"/>
+<use xlink:href="#kbd" x="33" y="152"/>
+</g>
+<g id="phone">
+<rect x="0" y="0" width="62" height="100" rx="9" fill="#fff" stroke="#1a1a1a" stroke-width="3"/>
+<rect x="6" y="14" width="50" height="70" fill="#e6e6e6" stroke="#333" stroke-width="1.5"/>
+<rect x="21" y="89" width="20" height="6" rx="2" fill="#999" stroke="#333" stroke-width="1"/>
+<rect x="24" y="6" width="14" height="3" rx="1.5" fill="#333"/>
+</g>
+<g id="tablet">
+<rect x="0" y="0" width="122" height="168" rx="12" fill="#fff" stroke="#1a1a1a" stroke-width="3"/>
+<rect x="10" y="16" width="102" height="126" fill="#e6e6e6" stroke="#333" stroke-width="1.5"/>
+<rect x="49" y="150" width="24" height="10" rx="2" fill="#999" stroke="#333" stroke-width="1"/>
+<rect x="54" y="6" width="14" height="3" rx="1.5" fill="#333"/>
+</g>
+</defs>
+<rect width="670" height="612" fill="#fff"/>
+<g transform="scale(0.5)">
+<rect x="3" y="3" width="1335" height="1217" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+<text x="672" y="86" text-anchor="middle" font-size="54" font-weight="bold" fill="#1a1a1a">LAN mit Terminal-Server-Architektur</text>
+<text x="664" y="152" text-anchor="middle" font-size="40" font-weight="bold" fill="#1a1a1a">(Beispiel-Konfiguration)</text>
+
+<!-- Verbindungsleitungen -->
+<g fill="none" stroke="#999" stroke-width="1.5">
+<path d="M235,395 L430,588 L243,540 L583,928"/>
+<path d="M665,800 V928"/>
+<path d="M300,848 H478 V935 H566"/>
+<path d="M300,1125 H484 V945 H566"/>
+<path d="M530,965 V1125 H1020"/>
+<path d="M744,942 H850 V520 H965"/>
+<path d="M744,952 H916 V857 H1020"/>
+</g>
+<g fill="none" stroke="#1a1a1a" stroke-width="2.5" stroke-dasharray="8,6">
+<path d="M955,405 L1018,488"/>
+<path d="M1150,432 L1050,488"/>
+</g>
+
+<!-- Internet-Wolke -->
+<path d="M90,300 a35,30 0 0 1 60,-25 a40,30 0 0 1 70,-5 a35,30 0 0 1 65,15 a30,30 0 0 1 20,50 a30,30 0 0 1 -25,45 a40,30 0 0 1 -70,10 a40,30 0 0 1 -70,0 a35,30 0 0 1 -65,-20 a30,30 0 0 1 15,-70 z" fill="#fff" stroke="#1a1a1a" stroke-width="5" stroke-linejoin="round"/>
+<text x="192" y="345" text-anchor="middle" font-size="32" fill="#1a1a1a">Internet</text>
+
+<!-- Smartphones und Tablets -->
+<text x="942" y="228" text-anchor="middle" font-size="32" fill="#1a1a1a">Smartphones</text>
+<text x="1162" y="228" text-anchor="middle" font-size="32" fill="#1a1a1a">Tablets</text>
+<use xlink:href="#phone" x="930" y="292"/>
+<use xlink:href="#phone" x="920" y="304"/>
+<use xlink:href="#tablet" x="1108" y="246"/>
+<use xlink:href="#tablet" x="1090" y="264"/>
+
+<!-- W-LAN-Accesspoint -->
+<rect x="965" y="488" width="140" height="52" fill="#a6a6a6" stroke="#333" stroke-width="2"/>
+<text x="1078" y="585" text-anchor="middle" font-size="32" fill="#1a1a1a">W-LAN-Accesspoint</text>
+
+<!-- Serverschrank -->
+<text x="668" y="437" text-anchor="middle" font-size="32" fill="#1a1a1a"><tspan x="668">Serverschrank</tspan><tspan x="668" dy="41">mit mehreren Servern</tspan></text>
+<g>
+<path d="M560,512 H775 L808,540 H525 Z" fill="#cccccc" stroke="#666" stroke-width="2"/>
+<rect x="615" y="516" width="105" height="10" fill="#e6e6e6" stroke="#999" stroke-width="1"/>
+<rect x="525" y="540" width="283" height="12" fill="#999"/>
+<path d="M550,546 H785" stroke="#333" stroke-width="5" stroke-dasharray="2,2"/>
+<rect x="525" y="552" width="33" height="236" fill="#999"/>
+<rect x="775" y="552" width="33" height="236" fill="#999"/>
+<rect x="558" y="552" width="217" height="236" fill="#333"/>
+<rect x="562" y="566" width="209" height="28" fill="#1a1a1a"/>
+<rect x="562" y="598" width="209" height="26" fill="#262626"/>
+<rect x="562" y="692" width="209" height="56" fill="#262626"/>
+<rect x="562" y="752" width="209" height="28" fill="#1a1a1a"/>
+<rect x="562" y="640" width="209" height="18" fill="#4d4d4d"/>
+<rect x="562" y="670" width="209" height="18" fill="#4d4d4d"/>
+<g stroke="#e6e6e6" stroke-width="5" stroke-dasharray="3,2">
+<path d="M570,649 H598 M608,649 H662 M672,649 H726 M736,649 H770"/>
+<path d="M570,679 H598 M608,679 H662 M672,679 H726 M736,679 H770"/>
+</g>
+<circle cx="539" cy="688" r="8" fill="#e6e6e6" stroke="#333" stroke-width="2"/>
+<rect x="525" y="788" width="283" height="14" fill="#999"/>
+<path d="M550,795 H785" stroke="#333" stroke-width="5" stroke-dasharray="2,2"/>
+</g>
+
+<!-- Switch und Router -->
+<rect x="566" y="928" width="178" height="44" fill="#a6a6a6" stroke="#333" stroke-width="2"/>
+<text x="674" y="1014" text-anchor="middle" font-size="32" fill="#1a1a1a">Switch und Router</text>
+
+<!-- Thin Clients -->
+<use xlink:href="#thinclients" x="70" y="680"/>
+<text x="175" y="910" text-anchor="middle" font-size="32" fill="#1a1a1a">Thin Clients</text>
+<use xlink:href="#thinclients" x="70" y="935"/>
+<text x="188" y="1176" text-anchor="middle" font-size="32" fill="#1a1a1a">Thin Clients</text>
+
+<!-- Notebook -->
+<rect x="1050" y="762" width="172" height="102" rx="5" fill="#1a1a1a"/>
+<rect x="1060" y="770" width="152" height="86" fill="#cccccc"/>
+<path d="M1050,864 H1222 L1240,890 H1032 Z" fill="#fff" stroke="#1a1a1a" stroke-width="3" stroke-linejoin="round"/>
+<path d="M1060,868 H1212 L1222,884 H1050 Z" fill="#333"/>
+<path d="M1056,876 H1216" stroke="#cccccc" stroke-width="1.5"/>
+<path d="M1072,868 L1064,884 M1090,868 L1084,884 M1108,868 L1104,884 M1126,868 L1124,884 M1144,868 L1144,884 M1162,868 L1164,884 M1180,868 L1184,884 M1198,868 L1204,884" stroke="#cccccc" stroke-width="1.5"/>
+<rect x="1024" y="890" width="216" height="6" rx="2" fill="#1a1a1a"/>
+<text x="1130" y="935" text-anchor="middle" font-size="32" fill="#1a1a1a">Notebooks</text>
+
+<!-- PCs -->
+<rect x="1022" y="988" width="66" height="142" fill="#f2f2f2" stroke="#999" stroke-width="2"/>
+<rect x="1030" y="996" width="50" height="10" fill="#e6e6e6" stroke="#666" stroke-width="1"/>
+<rect x="1030" y="1012" width="50" height="10" fill="#e6e6e6" stroke="#999" stroke-width="1"/>
+<rect x="1030" y="1050" width="50" height="38" fill="#cccccc"/>
+<rect x="1030" y="1094" width="50" height="30" fill="#999"/>
+<rect x="1108" y="972" width="140" height="108" rx="4" fill="#333"/>
+<rect x="1116" y="980" width="124" height="90" fill="#666"/>
+<rect x="1145" y="1080" width="60" height="8" fill="#333"/>
+<use xlink:href="#kbd" x="1096" y="1092"/>
+<text x="1145" y="1183" text-anchor="middle" font-size="32" fill="#1a1a1a">PCs</text>
+</g>
+</svg>
