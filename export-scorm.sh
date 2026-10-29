@@ -9,20 +9,24 @@ script_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 readonly script_dir
 
 usage() {
-    echo "Verwendung: $(basename "$0") [-f format] [-m punkte] [-o organisation]"
+    echo "Verwendung: $(basename "$0") [-f format] [-m punkte] [-o organisation] [-i]"
     echo "  -f format        scorm1.2 (Standard) oder scorm2004"
     echo "  -m punkte        Bestehensgrenze in Prozent der Quizpunkte (Standard: 0)"
     echo "  -o organisation  Name der Organisation im Paket (Standard: LiaScript)"
+    echo "  -i               Startseite des Exporters mit iframe (--scorm-iframe)"
+    echo "                   statt Nachbearbeitung mit tools/patch_scorm.py"
 }
 
 format="scorm1.2"
 mastery=0
 organisation="LiaScript"
-while getopts "f:m:o:h" opt; do
+iframe=false
+while getopts "f:m:o:ih" opt; do
     case "$opt" in
         f) format="$OPTARG" ;;
         m) mastery="$OPTARG" ;;
         o) organisation="$OPTARG" ;;
+        i) iframe=true ;;
         h) usage; exit 0 ;;
         *) usage; exit 1 ;;
     esac
@@ -33,7 +37,15 @@ case "$format" in
     *) echo "Unbekanntes Format: $format" >&2; usage; exit 1 ;;
 esac
 
-readonly ausgabe="${script_dir}/export/grundlagen-informatik-${format}"
+# Eigener Dateiname für die iframe-Variante, damit sich beide Pakete in
+# ILIAS nebeneinander vergleichen lassen
+variante=""
+extra_args=()
+if [[ "$iframe" == true ]]; then
+    variante="-iframe"
+    extra_args+=(--scorm-iframe)
+fi
+readonly ausgabe="${script_dir}/export/grundlagen-informatik-${format}${variante}"
 
 # Der Exporter packt den ganzen Ordner ins Paket. Deshalb nur Kurstext und
 # Bilder in einen sauberen Bauordner kopieren, ohne Werkzeuge, Doku und
@@ -48,14 +60,15 @@ for css in "${script_dir}"/*.css; do
     [[ -e "$css" ]] && cp "$css" "$bau_dir/"
 done
 
-echo "Exportiere als ${format} ..."
+echo "Exportiere als ${format}${variante} ..."
 cd "$bau_dir"
 npx -y @liascript/exporter \
     --input README.md \
     --format "$format" \
     --output "$ausgabe" \
     --scorm-organization "$organisation" \
-    --scorm-masteryScore "$mastery"
+    --scorm-masteryScore "$mastery" \
+    ${extra_args[@]+"${extra_args[@]}"}
 
 rm -rf "$bau_dir"
 
@@ -65,8 +78,14 @@ if [[ ! -f "${ausgabe}.zip" ]]; then
 fi
 
 # Ohne diese Nachbearbeitung zeigt ILIAS nur die leere LiaScript-Startseite
-# und findet keine Bilder (Details in tools/patch_scorm.py).
-python3 -I "${script_dir}/tools/patch_scorm.py" "${ausgabe}.zip"
+# und findet keine Bilder (Details in tools/patch_scorm.py). Die
+# iframe-Variante setzt die Kursadresse in start.html selbst; die Weiterleitung
+# des Patches würde sie dort nur durch eine andere Schreibweise ersetzen.
+if [[ "$iframe" == false ]]; then
+    python3 -I "${script_dir}/tools/patch_scorm.py" "${ausgabe}.zip"
+elif grep -q '^link:' "${script_dir}/README.md"; then
+    echo "Hinweis: Mit -i werden die link:-Stylesheets nicht eingebunden." >&2
+fi
 
 echo
 echo "Fertig: ${ausgabe}.zip"
